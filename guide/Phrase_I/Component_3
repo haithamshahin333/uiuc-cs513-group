@@ -1,0 +1,8 @@
+Part 3
+Assuming our U' is: How has the average price of restaurant dishes changed over time?
+Data quality problems:
+1. In the Menu table, there are records that are missing currency and/or currency symbol values, making it impossible for price compariason and analysis for these records.
+1. In the Menu table, there are records that have invalid currency and/or currency symbol values, like "Cent", making it impossible for price compariason and analysis for these records.
+2. In the Menu table's date column, there are different format of dates, so we are not able to compare the dates for all the records.
+3. In the MenuItem table, there are records that are missing price values, making it impossible for price compariason and analysis for these records.
+4. Integrity Constraint check is nessasary to make sure all menu items has a corresponding dish and menu record. 
