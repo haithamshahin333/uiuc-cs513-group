@@ -115,7 +115,8 @@ Data cleaning is never sufficient because (1) The dataset contains dish names an
 
 ## Part 3: List obvious data quality problems
 
-Assuming our U' is: How has the average price of restaurant dishes changed over time?
+Use Case: How have dish prices changed with time and how do they differ across menu locations?
+
 Data quality problems:
 
 1. In the Menu table, there are records that are missing currency and/or currency symbol values, making it impossible for price compariason and analysis for these records.
@@ -123,3 +124,5 @@ Data quality problems:
 1. In the Menu table's date column, there are different format of dates, so we are not able to compare the dates for all the records.
 1. In the MenuItem table, there are records that are missing price values, making it impossible for price compariason and analysis for these records.
 1. Integrity Constraint check is nessasary to make sure all menu items has a corresponding dish and menu record.
+1. To properly do dish price comparisons, it will be necessary to standarize/aggregate certain dishes that represent the same dish but may have different spellings or references.
+1. Menu venues/locations will need to be checked for accuracy on a geographic map or against a real/historical address. This will allow for the comparison across locations.
