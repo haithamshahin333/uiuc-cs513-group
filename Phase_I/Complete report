@@ -126,3 +126,26 @@ Data quality problems:
 1. Integrity Constraint check is nessasary to make sure all menu items has a corresponding dish and menu record.
 1. To properly do dish price comparisons, it will be necessary to standarize/aggregate certain dishes that represent the same dish but may have different spellings or references.
 1. Menu venues/locations will need to be checked for accuracy on a geographic map or against a real/historical address. This will allow for the comparison across locations.
+
+
+## Part 4: Initial Data Cleansing Plan for Phase 2
+Step 1) Review the Use Case Description and Dataset Description.
+- The goal of this step to validate that the dataset, once cleaned, can support the use case. This includes reviewing the dataset descriptions and the questions/queries that are intended to be addressed in the use case.
+- Assigned To: Haitham Shahin
+- Timeline: 07/21
+Step 2) Profile the Dataset to Identify Data Quality Problems with SQL.
+- Through the use of SQL, the team will show data quality problems that exist in the uncleaned Dataset that need to be addressed to answer the use case.
+- Assigned To: Haitham Shahin
+- Timeline: 07/21
+Step 3) Perform the Data Cleansing Steps.
+- This is executing the data cleaning steps that have been identified as necessary and sufficient to address the use case. Tools include SQL, Python, OpenRefine, and YesWorkflow to execute the full data cleaning workflow.
+- The full team will participate in this effort. As Steps 1 and 2 are completed, the team will identify the critical steps for the cleaning and distribute the steps of the workflow across the team members.
+- Timeline: 07/28
+Step 4) Data Quality Checking to Show the Cleansed Dataset addresses the necessary and sufficient steps to address the use case.
+- The team will show how the cleansed dataset now can be sufficiently used to answer the use case.
+- Assigned To: Jiaqing Mo
+- Timeline: 07/30
+Step 5) Document and Quanity the Changes Made to the Dataset
+- This step is to demonstrate and report on the cleansing applied to the dataset.
+- Assigned to: Minh Nguyen
+- Timeline: 07/30
