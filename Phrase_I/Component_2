@@ -1,0 +1,13 @@
+Main Use Case U1:
+
+Key Question: How have dish prices changed with time and how do they differ across menu locations.
+
+One hypothetical use case for the dataset is wanting to understand how the same dish is priced different both with variance in time and variance in menu location.
+This use case requires necessary data cleansing to first standardize the set of dishes such that syntax issues or differences in language used for a given dish that represent the same semantic dish are matched.
+Next, the data needs to be validated to ensure that year and price are valid values in the dataset. Additionally, the menu locations and venues need to be validated as real locations on the map.
+It is also necessary to ensure that dishes can be mapped back to their origin menus since this link is how a given dish can be compared across locations.
+
+Query Samples (In Natural Language):
+1) Select avg(price) for dishes grouped by decades for a given country -> This helps to show how in a particular location dish prices changed over time
+2) Select top(prices) for each dish in a given decade, country -> helps to show how prices changed for a dish in a given country over each decade
+3) Select avg(prices) for each country across decades -> show how prices changed across dishes in each country over time
