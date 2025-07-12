@@ -78,7 +78,24 @@ The New York Public Library (NYPL) Menu Collection represents a comprehensive di
 
 ## Part 2: Develop three use cases
 
-## Task 2b: "Zero Data Cleaning" Use Case (U0)
+### Task 2a: Target (main) use case
+
+Main Use Case U1:
+
+Key Question: How have dish prices changed with time and how do they differ across menu locations.
+
+One hypothetical use case for the dataset is wanting to understand how the same dish is priced different both with variance in time and variance in menu location.
+This use case requires necessary data cleansing to first standardize the set of dishes such that syntax issues or differences in language used for a given dish that represent the same semantic dish are matched.
+Next, the data needs to be validated to ensure that year and price are valid values in the dataset. Additionally, the menu locations and venues need to be validated as real locations on the map.
+It is also necessary to ensure that dishes can be mapped back to their origin menus since this link is how a given dish can be compared across locations.
+
+Query Samples (In Natural Language):
+
+1) Select avg(price) for dishes grouped by decades for a given country -> This helps to show how in a particular location dish prices changed over time
+2) Select top(prices) for each dish in a given decade, country -> helps to show how prices changed for a dish in a given country over each decade
+3) Select avg(prices) for each country across decades -> show how prices changed across dishes in each country over time
+
+### Task 2b: "Zero Data Cleaning" Use Case (U0)
 
 Scenario: A library science researcher wants to analyze the digitization quality and completeness of the NYPL menu collection to assess the success of the crowdsourcing project and identify patterns in volunteer contributions.
 
@@ -88,7 +105,7 @@ Zero data cleaning is sufficient because (1) the `status` field provides direct 
 
 ---
 
-## Task 2c: "Never Enough" Use Case (U2)
+### Task 2c: "Never Enough" Use Case (U2)
 
 Scenario: A public health researcher wants to conduct a comprehensive nutritional analysis of American dining patterns over the past 150 years to model the evolution of dietary habits and nutritional content. The goal is to correlate historical dietary patterns with health outcomes and inform modern public health policy.
 
