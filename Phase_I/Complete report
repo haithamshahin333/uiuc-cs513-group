@@ -8,7 +8,7 @@ The NYPL Menu dataset consists of four interconnected CSV files representing a r
 
 #### Detailed Schema
 
-**Menu Table** (> 17,000 records)
+**Menu Table** (17,545 records)
 
 - **Primary Key**: `id` (integer)
 - **Attributes**:
@@ -32,7 +32,7 @@ The NYPL Menu dataset consists of four interconnected CSV files representing a r
   - `page_count` (integer) - Number of pages in menu
   - `dish_count` (integer) - Number of dishes on menu
 
-**MenuPage Table** (> 66,000 records)
+**MenuPage Table** (66,937 records)
 
 - **Primary Key**: `id` (integer)
 - **Foreign Key**: `menu_id` → Menu.id
@@ -43,7 +43,7 @@ The NYPL Menu dataset consists of four interconnected CSV files representing a r
   - `full_width` (integer) - Image width in pixels
   - `uuid` (string) - Unique identifier for digital asset
 
-**MenuItem Table** (>1M records)
+**MenuItem Table** (1,332,726 records)
 
 - **Primary Key**: `id` (integer)
 - **Foreign Keys**:
@@ -57,7 +57,7 @@ The NYPL Menu dataset consists of four interconnected CSV files representing a r
   - `xpos` (decimal) - X-coordinate position on menu page (0-1 normalized)
   - `ypos` (decimal) - Y-coordinate position on menu page (0-1 normalized)
 
-**Dish Table** (> 400,000 records)
+**Dish Table** (423,397 records)
 
 - **Primary Key**: `id` (integer)
 - **Attributes**:
@@ -72,7 +72,7 @@ The NYPL Menu dataset consists of four interconnected CSV files representing a r
 
 ### Description
 
-The New York Public Library (NYPL) Menu Collection represents a comprehensive digitization project of historical restaurant menus spanning from the mid-19th century to the early 21st century. This dataset captures the culinary landscape of American dining, with particular emphasis on New York establishments, hotels, steamships, and special events. The collection spans across 3 centuries, from 1800s to 2000s (it is worth noting there appears to be data error since earliest record of menu is year 01 and latest is later than current year of 2025), with the majority of menus dating from 1880-1980. This timeframe captures significant periods in American culinary history. This dataset includes a wide variety of venue types (commercial restaurants, hotels, etc.), meal types (breakfast, lunch, etc.) and physical metadata (detailed descriptions of menu design, materials, and artistic elements).
+The New York Public Library (NYPL) Menu Collection represents a comprehensive digitization project of historical restaurant menus spanning from the mid-19th century to the early 21st century. This dataset captures the culinary landscape of American dining, with particular emphasis on New York establishments, hotels, steamships, and special events. The collection spans across 3 centuries, from 1800s to 2000s (it is worth noting there appears to be data error since earliest record of menu is year 01 and latest is later than current year of 2025), with the majority of menus dating from 1880-1980. This dataset includes a wide variety of venue types (commercial restaurants, hotels, etc.), meal types (breakfast, lunch, etc.) and physical metadata (detailed descriptions of menu design, materials, and artistic elements).
 
 ---
 
