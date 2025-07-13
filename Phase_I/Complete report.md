@@ -1,5 +1,9 @@
-Google Doc: https://drive.google.com/drive/folders/1Waw1m77ODt0rDDInLvhfCB98q0vV-Urv?usp=sharing
-# Project Phase-I Analysis: NYPL Menu Dataset
+# Project Phase-I Report
+
+Team36
+Minh Nguyen – minhn2
+Jiaqing Mo - jiaqing7
+Haitham Shahin - hshahin2
 
 ## Part 1: Description of Dataset
 
