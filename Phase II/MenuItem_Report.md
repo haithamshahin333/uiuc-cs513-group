@@ -18,7 +18,6 @@
 1. Remove rows in which price is greater than high_price.
 1. Remove rows with empty id, menu_page_id, created_at, updated_at, xpos or ypos
 1. Remove rows in with non-numerical xpos or ypos
-1. Remove rows with non-existent menu_page_id or dish_id
 
 ### Rationale
 
@@ -45,10 +44,6 @@ Remove rows with empty id, menu_page_id, created_at, updated_at, xpos or ypos. A
 #### Remove rows in with non-numerical xpos or ypos
 
 Remove rows in with non-numerical xpos or ypos. According to data constraints in the menus.nypl.org, these columns contain float values. So any rows contain non-numerical value must be invalid.
-
-#### Remove rows with non-existent menu_page_id or dish_id
-
-Remove rows with non-existent menu_page_id or dish_id. The dish_id and menu_page_id must obviously be valid. Removing invalid rows rules out the case where we have menu item that don't actually exist in a valid menu.
 
 ## 2. Document data quality changes
 

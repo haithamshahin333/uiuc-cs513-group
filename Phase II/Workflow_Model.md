@@ -149,14 +149,12 @@ Raw MenuItem Data
 └─────────┬───────┘
           │
           ▼
-┌─────────────────┐
-│ Referential     │ ── Remove rows with invalid menu_page_id/dish_id
-│ Integrity       │    Ensure foreign key constraints
-└─────────┬───────┘
-          │
-          ▼
    Clean MenuItem Data
 ```
+
+Graphviz visual representation:
+
+![alt text](image-1.png)
 
 ## Tools and Technologies Used:
 
@@ -186,7 +184,6 @@ Raw MenuItem Data
 3. **API Integration**: Wikidata and OpenCage APIs selected to enhance geographic data completeness
 
 ### Workflow Dependencies:
-- Menu cleaning must complete before MenuItem referential integrity checks
 - String trimming must precede all text-based operations
 - Data type conversion required before numerical validations
 - Geographic reconciliation depends on cleaned place names

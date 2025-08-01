@@ -18,11 +18,12 @@ digraph NYPL_Data_Cleaning_Workflow {
     column_cleanup [label="Column\nCleanup", fillcolor=lightgreen];
     
     menuitem_cleaning [label="MenuItem Dataset\nCleaning", fillcolor=lightcoral];
-    price_valid [label="Price\nValidation", fillcolor=lightcoral];
+    price_valid [label="Price Data\nValidation", fillcolor=lightcoral];
     price_impute [label="High Price\nImputation", fillcolor=lightcoral];
+    high_price_valid [label="High Price\nValidation", fillcolor=lightcoral];
     price_logic [label="Price Logic\nValidation", fillcolor=lightcoral];
     field_valid [label="Required Fields\nValidation", fillcolor=lightcoral];
-    ref_integrity [label="Referential\nIntegrity Check", fillcolor=lightcoral];
+    position_valid [label="Position Data\nValidation", fillcolor=lightcoral];
     
     quality_valid [label="Quality\nValidation", fillcolor=lightgray];
     before_after [label="Before/After\nAnalysis", fillcolor=lightgray];
@@ -49,10 +50,11 @@ digraph NYPL_Data_Cleaning_Workflow {
     raw_menuitem_csv -> menuitem_cleaning;
     menuitem_cleaning -> price_valid;
     price_valid -> price_impute;
-    price_impute -> price_logic;
+    price_impute -> high_price_valid;
+    high_price_valid -> price_logic;
     price_logic -> field_valid;
-    field_valid -> ref_integrity;
-    ref_integrity -> clean_menuitem_csv;
+    field_valid -> position_valid;
+    position_valid -> clean_menuitem_csv;
     
     clean_menu_csv -> quality_valid;
     clean_menuitem_csv -> quality_valid;
@@ -96,9 +98,10 @@ digraph NYPL_Data_Cleaning_Workflow {
         menuitem_cleaning;
         price_valid;
         price_impute;
+        high_price_valid;
         price_logic;
         field_valid;
-        ref_integrity;
+        position_valid;
     }
     
     subgraph cluster_validation {
