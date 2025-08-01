@@ -1,0 +1,84 @@
+digraph Overall_Workflow_W1 {
+    rankdir=TB;
+    node [shape=box, style=filled, fontname="Arial"];
+    edge [fontname="Arial"];
+    
+    raw_data [label="Raw NYPL Dataset\n(Menu.csv + MenuItem.csv + Dish.csv + MenuPage.csv)", fillcolor=lightblue, shape=cylinder];
+    
+    profiling [label="Phase 1:\nData Profiling\n& Analysis", fillcolor=lightyellow];
+    quality_id [label="Phase 2:\nQuality Issue\nIdentification", fillcolor=lightyellow];
+    cleaning [label="Phase 3:\nData Cleaning\nOperations", fillcolor=lightgreen];
+    validation [label="Phase 4:\nData Quality\nValidation", fillcolor=lightcoral];
+    export [label="Phase 5:\nCleaned Data\nExport", fillcolor=lightgray];
+    
+    clean_data [label="Cleaned Dataset\n(D')", fillcolor=lightpink, shape=cylinder];
+    quality_report [label="Quality\nReport", fillcolor=lightpink, shape=note];
+    workflow_doc [label="Workflow\nDocumentation", fillcolor=lightpink, shape=note];
+    
+    sql_tools [label="SQL Queries\n& Analysis", fillcolor=wheat, shape=diamond];
+    openrefine_tool [label="OpenRefine\nTransformations", fillcolor=wheat, shape=diamond];
+    api_tools [label="Wikidata &\nOpenCage APIs", fillcolor=wheat, shape=diamond];
+    
+    raw_data -> profiling;
+    profiling -> quality_id;
+    quality_id -> cleaning;
+    cleaning -> validation;
+    validation -> export;
+    export -> clean_data;
+    export -> quality_report;
+    export -> workflow_doc;
+    
+    profiling -> sql_tools [style=dashed, label="uses"];
+    quality_id -> sql_tools [style=dashed];
+    cleaning -> openrefine_tool [style=dashed, label="uses"];
+    cleaning -> api_tools [style=dashed, label="uses"];
+    validation -> sql_tools [style=dashed, label="uses"];
+    
+    validation -> cleaning [style=dotted, color=red, label="iterate if needed"];
+    
+    use_case [label="Use Case U1:\nPrice Analysis\nAcross Countries", fillcolor=orange, shape=ellipse];
+    use_case -> profiling [style=dashed, label="drives"];
+    use_case -> quality_id [style=dashed];
+    
+    subgraph cluster_input {
+        label="Input";
+        style=dashed;
+        color=blue;
+        raw_data;
+        use_case;
+    }
+    
+    subgraph cluster_process {
+        label="Data Cleaning Workflow Process";
+        style=solid;
+        color=black;
+        profiling;
+        quality_id;
+        cleaning;
+        validation;
+        export;
+    }
+    
+    subgraph cluster_tools {
+        label="Tools & Methods";
+        style=dashed;
+        color=brown;
+        sql_tools;
+        openrefine_tool;
+        api_tools;
+    }
+    
+    subgraph cluster_output {
+        label="Outputs";
+        style=dashed;
+        color=green;
+        clean_data;
+        quality_report;
+        workflow_doc;
+    }
+    
+    label="Overall Data Cleaning Workflow (W1)\nNYPL Menu Dataset Project";
+    labelloc=t;
+    fontsize=16;
+    fontname="Arial Bold";
+}

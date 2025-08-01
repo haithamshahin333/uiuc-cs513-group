@@ -1,0 +1,354 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="668pt" height="838pt" viewBox="0.00 0.00 668.48 837.60">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 833.6)">
+<title>NYPL_Data_Cleaning_Workflow</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-833.6 664.48,-833.6 664.48,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_input</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="166,-744.8 166,-821.6 442,-821.6 442,-744.8 166,-744.8"/>
+<text text-anchor="middle" x="304" y="-805" font-family="Times,serif" font-size="14.00">Input Data</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_profiling</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="8,-576.8 8,-736.8 120,-736.8 120,-576.8 8,-576.8"/>
+<text text-anchor="middle" x="64" y="-720.2" font-family="Times,serif" font-size="14.00">Data Profiling</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_menu_clean</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="128,-98.4 128,-736.8 280,-736.8 280,-98.4 128,-98.4"/>
+<text text-anchor="middle" x="204" y="-720.2" font-family="Times,serif" font-size="14.00">Menu Cleaning Pipeline</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_menuitem_clean</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="288,-266.4 288,-736.8 465,-736.8 465,-266.4 288,-266.4"/>
+<text text-anchor="middle" x="376.5" y="-720.2" font-family="Times,serif" font-size="14.00">MenuItem Cleaning Pipeline</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_validation</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="513,-98.4 513,-258.4 633,-258.4 633,-98.4 513,-98.4"/>
+<text text-anchor="middle" x="573" y="-241.8" font-family="Times,serif" font-size="14.00">Quality Validation</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_output</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="99,-8 99,-90.4 628,-90.4 628,-8 99,-8"/>
+<text text-anchor="middle" x="363.5" y="-73.8" font-family="Times,serif" font-size="14.00">Output Data</text>
+</g>
+<!-- raw_menu_csv -->
+<g id="node1" class="node">
+<title>raw_menu_csv</title>
+<polygon fill="lightblue" stroke="black" points="282.28,-788.8 173.72,-788.8 173.72,-752.8 282.28,-752.8 282.28,-788.8"/>
+<text text-anchor="middle" x="228" y="-766.6" font-family="Times,serif" font-size="14.00">Raw Menu CSV</text>
+</g>
+<!-- profiling -->
+<g id="node3" class="node">
+<title>profiling</title>
+<polygon fill="lightyellow" stroke="black" points="111.85,-704 16.15,-704 16.15,-662.4 111.85,-662.4 111.85,-704"/>
+<text text-anchor="middle" x="64" y="-687.4" font-family="Times,serif" font-size="14.00">Data Profiling</text>
+<text text-anchor="middle" x="64" y="-670.6" font-family="Times,serif" font-size="14.00">&amp; Analysis</text>
+</g>
+<!-- raw_menu_csv&#45;&gt;profiling -->
+<g id="edge1" class="edge">
+<title>raw_menu_csv-&gt;profiling</title>
+<path fill="none" stroke="black" d="M173.33,-757.06C156.88,-752.03 139.18,-745.36 124,-736.8 112.36,-730.24 100.97,-721.15 91.3,-712.37"/>
+<polygon fill="black" stroke="black" points="93.72,-709.84 84.04,-705.52 88.91,-714.93 93.72,-709.84"/>
+</g>
+<!-- menu_cleaning -->
+<g id="node5" class="node">
+<title>menu_cleaning</title>
+<polygon fill="lightgreen" stroke="black" points="268.07,-704 173.93,-704 173.93,-662.4 268.07,-662.4 268.07,-704"/>
+<text text-anchor="middle" x="221" y="-687.4" font-family="Times,serif" font-size="14.00">Menu Dataset</text>
+<text text-anchor="middle" x="221" y="-670.6" font-family="Times,serif" font-size="14.00">Cleaning</text>
+</g>
+<!-- raw_menu_csv&#45;&gt;menu_cleaning -->
+<g id="edge4" class="edge">
+<title>raw_menu_csv-&gt;menu_cleaning</title>
+<path fill="none" stroke="black" d="M226.58,-752.48C225.72,-741.89 224.58,-728.03 223.57,-715.57"/>
+<polygon fill="black" stroke="black" points="227.06,-715.39 222.76,-705.71 220.09,-715.96 227.06,-715.39"/>
+</g>
+<!-- before_after -->
+<g id="node20" class="node">
+<title>before_after</title>
+<polygon fill="lightgray" stroke="black" points="608.76,-148 521.24,-148 521.24,-106.4 608.76,-106.4 608.76,-148"/>
+<text text-anchor="middle" x="565" y="-131.4" font-family="Times,serif" font-size="14.00">Before/After</text>
+<text text-anchor="middle" x="565" y="-114.6" font-family="Times,serif" font-size="14.00">Analysis</text>
+</g>
+<!-- raw_menu_csv&#45;&gt;before_after -->
+<g id="edge23" class="edge">
+<title>raw_menu_csv-&gt;before_after</title>
+<path fill="none" stroke="black" d="M266.01,-752.37C274.11,-749.33 282.72,-746.58 291,-744.8 310.36,-740.65 454.57,-750.36 469,-736.8 511.41,-696.95 483,-664.8 483,-606.6 483,-606.6 483,-606.6 483,-294.2 483,-242.81 493.19,-229 518,-184 523.21,-174.55 530.16,-165.21 537.11,-156.95"/>
+<polygon fill="black" stroke="black" points="539.59,-159.42 543.57,-149.6 534.34,-154.8 539.59,-159.42"/>
+</g>
+<!-- raw_menuitem_csv -->
+<g id="node2" class="node">
+<title>raw_menuitem_csv</title>
+<polygon fill="lightblue" stroke="black" points="434.11,-788.8 299.89,-788.8 299.89,-752.8 434.11,-752.8 434.11,-788.8"/>
+<text text-anchor="middle" x="367" y="-766.6" font-family="Times,serif" font-size="14.00">Raw MenuItem CSV</text>
+</g>
+<!-- raw_menuitem_csv&#45;&gt;profiling -->
+<g id="edge2" class="edge">
+<title>raw_menuitem_csv-&gt;profiling</title>
+<path fill="none" stroke="black" d="M320.49,-752.31C310.86,-749.31 300.7,-746.59 291,-744.8 254.47,-738.04 158.45,-750.71 124,-736.8 110.75,-731.45 98.44,-721.88 88.46,-712.35"/>
+<polygon fill="black" stroke="black" points="91.24,-710.18 81.72,-705.52 86.26,-715.1 91.24,-710.18"/>
+</g>
+<!-- menuitem_cleaning -->
+<g id="node13" class="node">
+<title>menuitem_cleaning</title>
+<polygon fill="lightcoral" stroke="black" points="434.9,-704 315.1,-704 315.1,-662.4 434.9,-662.4 434.9,-704"/>
+<text text-anchor="middle" x="375" y="-687.4" font-family="Times,serif" font-size="14.00">MenuItem Dataset</text>
+<text text-anchor="middle" x="375" y="-670.6" font-family="Times,serif" font-size="14.00">Cleaning</text>
+</g>
+<!-- raw_menuitem_csv&#45;&gt;menuitem_cleaning -->
+<g id="edge13" class="edge">
+<title>raw_menuitem_csv-&gt;menuitem_cleaning</title>
+<path fill="none" stroke="black" d="M368.62,-752.48C369.61,-741.89 370.9,-728.03 372.07,-715.57"/>
+<polygon fill="black" stroke="black" points="375.54,-715.99 372.99,-705.71 368.57,-715.34 375.54,-715.99"/>
+</g>
+<!-- raw_menuitem_csv&#45;&gt;before_after -->
+<g id="edge24" class="edge">
+<title>raw_menuitem_csv-&gt;before_after</title>
+<path fill="none" stroke="black" d="M434.6,-759.48C461.39,-754.03 487.97,-746.45 497,-736.8 537.21,-693.84 521,-665.44 521,-606.6 521,-606.6 521,-606.6 521,-294.2 521,-244.5 525.5,-231.54 540,-184 542.55,-175.62 546.06,-166.85 549.64,-158.81"/>
+<polygon fill="black" stroke="black" points="552.8,-160.31 553.84,-149.77 546.45,-157.36 552.8,-160.31"/>
+</g>
+<!-- sql_analysis -->
+<g id="node4" class="node">
+<title>sql_analysis</title>
+<polygon fill="lightyellow" stroke="black" points="107.97,-626.4 20.03,-626.4 20.03,-584.8 107.97,-584.8 107.97,-626.4"/>
+<text text-anchor="middle" x="64" y="-609.8" font-family="Times,serif" font-size="14.00">SQL Quality</text>
+<text text-anchor="middle" x="64" y="-593" font-family="Times,serif" font-size="14.00">Analysis</text>
+</g>
+<!-- profiling&#45;&gt;sql_analysis -->
+<g id="edge3" class="edge">
+<title>profiling-&gt;sql_analysis</title>
+<path fill="none" stroke="black" d="M64,-661.94C64,-654.59 64,-646.11 64,-638.03"/>
+<polygon fill="black" stroke="black" points="67.5,-638.17 64,-628.17 60.5,-638.17 67.5,-638.17"/>
+</g>
+<!-- string_trim -->
+<g id="node6" class="node">
+<title>string_trim</title>
+<polygon fill="lightgreen" stroke="black" points="272.25,-623.6 161.75,-623.6 161.75,-587.6 272.25,-587.6 272.25,-623.6"/>
+<text text-anchor="middle" x="217" y="-601.4" font-family="Times,serif" font-size="14.00">String Trimming</text>
+</g>
+<!-- menu_cleaning&#45;&gt;string_trim -->
+<g id="edge5" class="edge">
+<title>menu_cleaning-&gt;string_trim</title>
+<path fill="none" stroke="black" d="M219.93,-661.94C219.5,-653.82 219,-644.32 218.53,-635.5"/>
+<polygon fill="black" stroke="black" points="222.03,-635.4 218.01,-625.6 215.04,-635.77 222.03,-635.4"/>
+</g>
+<!-- type_convert -->
+<g id="node7" class="node">
+<title>type_convert</title>
+<polygon fill="lightgreen" stroke="black" points="258.28,-548.8 177.72,-548.8 177.72,-507.2 258.28,-507.2 258.28,-548.8"/>
+<text text-anchor="middle" x="218" y="-532.2" font-family="Times,serif" font-size="14.00">Data Type</text>
+<text text-anchor="middle" x="218" y="-515.4" font-family="Times,serif" font-size="14.00">Conversion</text>
+</g>
+<!-- string_trim&#45;&gt;type_convert -->
+<g id="edge6" class="edge">
+<title>string_trim-&gt;type_convert</title>
+<path fill="none" stroke="black" d="M217.23,-587.45C217.33,-579.42 217.46,-569.6 217.59,-560.32"/>
+<polygon fill="black" stroke="black" points="221.08,-560.59 217.72,-550.54 214.08,-560.5 221.08,-560.59"/>
+</g>
+<!-- value_std -->
+<g id="node8" class="node">
+<title>value_std</title>
+<polygon fill="lightgreen" stroke="black" points="270.93,-471.2 167.07,-471.2 167.07,-429.6 270.93,-429.6 270.93,-471.2"/>
+<text text-anchor="middle" x="219" y="-454.6" font-family="Times,serif" font-size="14.00">Value</text>
+<text text-anchor="middle" x="219" y="-437.8" font-family="Times,serif" font-size="14.00">Standardization</text>
+</g>
+<!-- type_convert&#45;&gt;value_std -->
+<g id="edge7" class="edge">
+<title>type_convert-&gt;value_std</title>
+<path fill="none" stroke="black" d="M218.27,-506.74C218.37,-499.39 218.48,-490.91 218.58,-482.83"/>
+<polygon fill="black" stroke="black" points="222.08,-483.01 218.71,-472.97 215.08,-482.92 222.08,-483.01"/>
+</g>
+<!-- geo_enrich -->
+<g id="node9" class="node">
+<title>geo_enrich</title>
+<polygon fill="lightgreen" stroke="black" points="260.66,-393.6 179.34,-393.6 179.34,-352 260.66,-352 260.66,-393.6"/>
+<text text-anchor="middle" x="220" y="-377" font-family="Times,serif" font-size="14.00">Geographic</text>
+<text text-anchor="middle" x="220" y="-360.2" font-family="Times,serif" font-size="14.00">Enrichment</text>
+</g>
+<!-- value_std&#45;&gt;geo_enrich -->
+<g id="edge8" class="edge">
+<title>value_std-&gt;geo_enrich</title>
+<path fill="none" stroke="black" d="M219.27,-429.14C219.37,-421.79 219.48,-413.31 219.58,-405.23"/>
+<polygon fill="black" stroke="black" points="223.08,-405.41 219.71,-395.37 216.08,-405.32 223.08,-405.41"/>
+</g>
+<!-- wikidata -->
+<g id="node10" class="node">
+<title>wikidata</title>
+<polygon fill="lightgreen" stroke="black" points="270.82,-316 173.18,-316 173.18,-274.4 270.82,-274.4 270.82,-316"/>
+<text text-anchor="middle" x="222" y="-299.4" font-family="Times,serif" font-size="14.00">Wikidata</text>
+<text text-anchor="middle" x="222" y="-282.6" font-family="Times,serif" font-size="14.00">Reconciliation</text>
+</g>
+<!-- geo_enrich&#45;&gt;wikidata -->
+<g id="edge9" class="edge">
+<title>geo_enrich-&gt;wikidata</title>
+<path fill="none" stroke="black" d="M220.54,-351.54C220.73,-344.19 220.95,-335.71 221.17,-327.63"/>
+<polygon fill="black" stroke="black" points="224.66,-327.86 221.43,-317.77 217.67,-327.67 224.66,-327.86"/>
+</g>
+<!-- opencage -->
+<g id="node11" class="node">
+<title>opencage</title>
+<polygon fill="lightgreen" stroke="black" points="264.71,-225.6 187.29,-225.6 187.29,-184 264.71,-184 264.71,-225.6"/>
+<text text-anchor="middle" x="226" y="-209" font-family="Times,serif" font-size="14.00">OpenCage</text>
+<text text-anchor="middle" x="226" y="-192.2" font-family="Times,serif" font-size="14.00">Geocoding</text>
+</g>
+<!-- wikidata&#45;&gt;opencage -->
+<g id="edge10" class="edge">
+<title>wikidata-&gt;opencage</title>
+<path fill="none" stroke="black" d="M222.91,-274.14C223.4,-263.25 224.02,-249.55 224.58,-237.28"/>
+<polygon fill="black" stroke="black" points="228.06,-237.75 225.01,-227.6 221.07,-237.43 228.06,-237.75"/>
+</g>
+<!-- column_cleanup -->
+<g id="node12" class="node">
+<title>column_cleanup</title>
+<polygon fill="lightgreen" stroke="black" points="267.33,-148 204.67,-148 204.67,-106.4 267.33,-106.4 267.33,-148"/>
+<text text-anchor="middle" x="236" y="-131.4" font-family="Times,serif" font-size="14.00">Column</text>
+<text text-anchor="middle" x="236" y="-114.6" font-family="Times,serif" font-size="14.00">Cleanup</text>
+</g>
+<!-- opencage&#45;&gt;column_cleanup -->
+<g id="edge11" class="edge">
+<title>opencage-&gt;column_cleanup</title>
+<path fill="none" stroke="black" d="M228.68,-183.54C229.65,-176.19 230.77,-167.71 231.84,-159.63"/>
+<polygon fill="black" stroke="black" points="235.31,-160.13 233.15,-149.75 228.37,-159.21 235.31,-160.13"/>
+</g>
+<!-- clean_menu_csv -->
+<g id="node21" class="node">
+<title>clean_menu_csv</title>
+<polygon fill="lightpink" stroke="black" points="340.78,-54.8 225.22,-54.8 225.22,-18.8 340.78,-18.8 340.78,-54.8"/>
+<text text-anchor="middle" x="283" y="-32.6" font-family="Times,serif" font-size="14.00">Clean Menu CSV</text>
+</g>
+<!-- column_cleanup&#45;&gt;clean_menu_csv -->
+<g id="edge12" class="edge">
+<title>column_cleanup-&gt;clean_menu_csv</title>
+<path fill="none" stroke="black" d="M246.67,-106.14C253.12,-94 261.44,-78.36 268.48,-65.1"/>
+<polygon fill="black" stroke="black" points="271.49,-66.9 273.09,-56.43 265.31,-63.62 271.49,-66.9"/>
+</g>
+<!-- price_valid -->
+<g id="node14" class="node">
+<title>price_valid</title>
+<polygon fill="lightcoral" stroke="black" points="414.55,-626.4 339.45,-626.4 339.45,-584.8 414.55,-584.8 414.55,-626.4"/>
+<text text-anchor="middle" x="377" y="-609.8" font-family="Times,serif" font-size="14.00">Price</text>
+<text text-anchor="middle" x="377" y="-593" font-family="Times,serif" font-size="14.00">Validation</text>
+</g>
+<!-- menuitem_cleaning&#45;&gt;price_valid -->
+<g id="edge14" class="edge">
+<title>menuitem_cleaning-&gt;price_valid</title>
+<path fill="none" stroke="black" d="M375.54,-661.94C375.73,-654.59 375.95,-646.11 376.17,-638.03"/>
+<polygon fill="black" stroke="black" points="379.66,-638.26 376.43,-628.17 372.67,-638.07 379.66,-638.26"/>
+</g>
+<!-- price_impute -->
+<g id="node15" class="node">
+<title>price_impute</title>
+<polygon fill="lightcoral" stroke="black" points="428.72,-548.8 351.28,-548.8 351.28,-507.2 428.72,-507.2 428.72,-548.8"/>
+<text text-anchor="middle" x="390" y="-532.2" font-family="Times,serif" font-size="14.00">High Price</text>
+<text text-anchor="middle" x="390" y="-515.4" font-family="Times,serif" font-size="14.00">Imputation</text>
+</g>
+<!-- price_valid&#45;&gt;price_impute -->
+<g id="edge15" class="edge">
+<title>price_valid-&gt;price_impute</title>
+<path fill="none" stroke="black" d="M380.48,-584.34C381.76,-576.91 383.24,-568.31 384.64,-560.15"/>
+<polygon fill="black" stroke="black" points="388.05,-560.99 386.3,-550.54 381.15,-559.81 388.05,-560.99"/>
+</g>
+<!-- price_logic -->
+<g id="node16" class="node">
+<title>price_logic</title>
+<polygon fill="lightcoral" stroke="black" points="437.46,-471.2 356.54,-471.2 356.54,-429.6 437.46,-429.6 437.46,-471.2"/>
+<text text-anchor="middle" x="397" y="-454.6" font-family="Times,serif" font-size="14.00">Price Logic</text>
+<text text-anchor="middle" x="397" y="-437.8" font-family="Times,serif" font-size="14.00">Validation</text>
+</g>
+<!-- price_impute&#45;&gt;price_logic -->
+<g id="edge16" class="edge">
+<title>price_impute-&gt;price_logic</title>
+<path fill="none" stroke="black" d="M391.88,-506.74C392.56,-499.39 393.34,-490.91 394.09,-482.83"/>
+<polygon fill="black" stroke="black" points="397.57,-483.24 395,-472.96 390.6,-482.59 397.57,-483.24"/>
+</g>
+<!-- field_valid -->
+<g id="node17" class="node">
+<title>field_valid</title>
+<polygon fill="lightcoral" stroke="black" points="451.52,-393.6 346.48,-393.6 346.48,-352 451.52,-352 451.52,-393.6"/>
+<text text-anchor="middle" x="399" y="-377" font-family="Times,serif" font-size="14.00">Required Fields</text>
+<text text-anchor="middle" x="399" y="-360.2" font-family="Times,serif" font-size="14.00">Validation</text>
+</g>
+<!-- price_logic&#45;&gt;field_valid -->
+<g id="edge17" class="edge">
+<title>price_logic-&gt;field_valid</title>
+<path fill="none" stroke="black" d="M397.54,-429.14C397.73,-421.79 397.95,-413.31 398.17,-405.23"/>
+<polygon fill="black" stroke="black" points="401.66,-405.46 398.43,-395.37 394.67,-405.27 401.66,-405.46"/>
+</g>
+<!-- ref_integrity -->
+<g id="node18" class="node">
+<title>ref_integrity</title>
+<polygon fill="lightcoral" stroke="black" points="452.74,-316 349.26,-316 349.26,-274.4 452.74,-274.4 452.74,-316"/>
+<text text-anchor="middle" x="401" y="-299.4" font-family="Times,serif" font-size="14.00">Referential</text>
+<text text-anchor="middle" x="401" y="-282.6" font-family="Times,serif" font-size="14.00">Integrity Check</text>
+</g>
+<!-- field_valid&#45;&gt;ref_integrity -->
+<g id="edge18" class="edge">
+<title>field_valid-&gt;ref_integrity</title>
+<path fill="none" stroke="black" d="M399.54,-351.54C399.73,-344.19 399.95,-335.71 400.17,-327.63"/>
+<polygon fill="black" stroke="black" points="403.66,-327.86 400.43,-317.77 396.67,-327.67 403.66,-327.86"/>
+</g>
+<!-- clean_menuitem_csv -->
+<g id="node22" class="node">
+<title>clean_menuitem_csv</title>
+<polygon fill="lightpink" stroke="black" points="499.6,-54.8 358.4,-54.8 358.4,-18.8 499.6,-18.8 499.6,-54.8"/>
+<text text-anchor="middle" x="429" y="-32.6" font-family="Times,serif" font-size="14.00">Clean MenuItem CSV</text>
+</g>
+<!-- ref_integrity&#45;&gt;clean_menuitem_csv -->
+<g id="edge19" class="edge">
+<title>ref_integrity-&gt;clean_menuitem_csv</title>
+<path fill="none" stroke="black" d="M403.2,-274.08C408.14,-228.83 420.14,-118.92 425.86,-66.52"/>
+<polygon fill="black" stroke="black" points="429.34,-66.91 426.95,-56.59 422.38,-66.15 429.34,-66.91"/>
+</g>
+<!-- quality_valid -->
+<g id="node19" class="node">
+<title>quality_valid</title>
+<polygon fill="lightgray" stroke="black" points="624.55,-225.6 549.45,-225.6 549.45,-184 624.55,-184 624.55,-225.6"/>
+<text text-anchor="middle" x="587" y="-209" font-family="Times,serif" font-size="14.00">Quality</text>
+<text text-anchor="middle" x="587" y="-192.2" font-family="Times,serif" font-size="14.00">Validation</text>
+</g>
+<!-- quality_valid&#45;&gt;before_after -->
+<g id="edge22" class="edge">
+<title>quality_valid-&gt;before_after</title>
+<path fill="none" stroke="black" d="M581.1,-183.54C578.92,-176.02 576.38,-167.32 573.98,-159.07"/>
+<polygon fill="black" stroke="black" points="577.41,-158.33 571.26,-149.71 570.69,-160.29 577.41,-158.33"/>
+</g>
+<!-- quality_report -->
+<g id="node23" class="node">
+<title>quality_report</title>
+<polygon fill="lightpink" stroke="black" points="206.8,-54.8 107.2,-54.8 107.2,-18.8 206.8,-18.8 206.8,-54.8"/>
+<text text-anchor="middle" x="157" y="-32.6" font-family="Times,serif" font-size="14.00">Quality Report</text>
+</g>
+<!-- before_after&#45;&gt;quality_report -->
+<g id="edge25" class="edge">
+<title>before_after-&gt;quality_report</title>
+<path fill="none" stroke="black" d="M520.96,-121.86C427.91,-112.66 219.46,-91.93 216,-90.4 202.07,-84.26 189.13,-73.56 178.94,-63.41"/>
+<polygon fill="black" stroke="black" points="181.54,-61.06 172.11,-56.22 176.47,-65.88 181.54,-61.06"/>
+</g>
+<!-- workflow_doc -->
+<g id="node24" class="node">
+<title>workflow_doc</title>
+<polygon fill="lightpink" stroke="black" points="620.16,-57.6 517.84,-57.6 517.84,-16 620.16,-16 620.16,-57.6"/>
+<text text-anchor="middle" x="569" y="-41" font-family="Times,serif" font-size="14.00">Workflow</text>
+<text text-anchor="middle" x="569" y="-24.2" font-family="Times,serif" font-size="14.00">Documentation</text>
+</g>
+<!-- before_after&#45;&gt;workflow_doc -->
+<g id="edge26" class="edge">
+<title>before_after-&gt;workflow_doc</title>
+<path fill="none" stroke="black" d="M565.91,-106.14C566.4,-95.25 567.02,-81.55 567.58,-69.28"/>
+<polygon fill="black" stroke="black" points="571.06,-69.75 568.01,-59.6 564.07,-69.43 571.06,-69.75"/>
+</g>
+<!-- clean_menu_csv&#45;&gt;quality_valid -->
+<g id="edge20" class="edge">
+<title>clean_menu_csv-&gt;quality_valid</title>
+<path fill="none" stroke="black" d="M298.73,-55.28C311.04,-67.62 329.33,-83.19 349,-90.4 363.04,-95.55 607.59,-87.67 618,-98.4 637.65,-118.64 624.25,-150.66 609.43,-174.11"/>
+<polygon fill="black" stroke="black" points="606.59,-172.06 603.93,-182.31 612.41,-175.96 606.59,-172.06"/>
+</g>
+<!-- clean_menuitem_csv&#45;&gt;quality_valid -->
+<g id="edge21" class="edge">
+<title>clean_menuitem_csv-&gt;quality_valid</title>
+<path fill="none" stroke="black" d="M448.81,-55.14C464.11,-67.41 486.43,-82.95 509,-90.4 524.01,-95.36 640.14,-86.92 651,-98.4 666.14,-114.42 660.13,-127.93 651,-148 646.05,-158.88 637.82,-168.47 628.87,-176.49"/>
+<polygon fill="black" stroke="black" points="626.81,-173.65 621.33,-182.72 631.27,-179.05 626.81,-173.65"/>
+</g>
+</g>
+</svg>
