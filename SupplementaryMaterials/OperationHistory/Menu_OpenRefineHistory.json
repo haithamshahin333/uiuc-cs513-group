@@ -1,0 +1,3647 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column event using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "venue",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column venue using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "place",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column place using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "physical_description",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column physical_description using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column occasion using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notes",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notes using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "call_number",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column call_number using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "keywords",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column keywords using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column date using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column location using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location_type",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column location_type using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "currency",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column currency using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column status using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "dish_count",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column dish_count using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "page_count",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column page_count using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column date using expression value.toDate()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "date",
+    "expression": "grel:toString(toDate(value),\"yyyy-MM-dd\")",
+    "onError": "set-to-blank",
+    "newColumnName": "date_timeless",
+    "columnInsertIndex": 13,
+    "description": "Create column date_timeless at index 13 based on column date using expression grel:toString(toDate(value),\"yyyy-MM-dd\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "language",
+    "description": "Remove column language"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "keywords",
+    "description": "Remove column keywords"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "location_type",
+    "description": "Remove column location_type"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "name",
+    "description": "Remove column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DINNER",
+          "dinner",
+          "[DINNER]",
+          "Dinner",
+          "(DINNER)",
+          "DINNER;",
+          "DINNER (?)",
+          "DINNER(?)",
+          "[DINNER?]",
+          "(?DINNER?)",
+          "DINNER,",
+          "DINNER?",
+          "[?DINNER?]",
+          "[DINNER ?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LUNCH",
+          "lunch",
+          "Lunch",
+          "[LUNCH]",
+          "(?LUNCH?)",
+          "LUNCH;",
+          "[LUNCH?]",
+          "(LUNCH)",
+          "LUNCH (?)",
+          "LUNCH."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BREAKFAST",
+          "Breakfast",
+          "breakfast",
+          "[BREAKFAST]",
+          "BREAKFAST;",
+          "BREAKFAST (?)",
+          "BREAKFAST(?)",
+          "[BREAKFAST ?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DAILY MENU",
+          "daily menu",
+          "Daily menu",
+          "(DAILY MENU)",
+          "DAILY MENU;",
+          "[DAILY MENU?]",
+          "[DAILY] MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SUPPER",
+          "supper",
+          "SUPPER (?)",
+          "SUPPER(?)",
+          "Supper",
+          "SUPPER;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUPPER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LUNCHEON",
+          "[LUNCHEON]",
+          "LUNCHEON;",
+          "Luncheon",
+          "luncheon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCHEON"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WINE LIST",
+          "wine list",
+          "WINE LIST;",
+          "Wine list"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WINE LIST"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Afternoon tea",
+          "AFTERNOON TEA",
+          "afternoon tea",
+          "afternoon tea ["
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Afternoon tea"
+      },
+      {
+        "from": [
+          "TABLE D'HOTE DINNER",
+          "DINNER TABLE D'HOTE",
+          "TABLE d'HOTE DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TABLE D'HOTE DINNER"
+      },
+      {
+        "from": [
+          "CARTE DU JOUR",
+          "(CARTE DU JOUR)",
+          "CARTE DU JOUR;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CARTE DU JOUR"
+      },
+      {
+        "from": [
+          "LUNCH & DINNER",
+          "lunch; dinner",
+          "[?DINNER? - LUNCH?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH & DINNER"
+      },
+      {
+        "from": [
+          "FRUHSTUCK-BREAKFAST",
+          "FRUHSTUCK/BREAKFAST",
+          "FRUHSTUCK/BREAKFAST;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FRUHSTUCK-BREAKFAST"
+      },
+      {
+        "from": [
+          "DINNER A LA CARTE",
+          "a la carte; dinner",
+          "dinner; a la carte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER A LA CARTE"
+      },
+      {
+        "from": [
+          "MENU",
+          "Menu",
+          "MENU;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MENU"
+      },
+      {
+        "from": [
+          "ANNUAL DINNER",
+          "Annual Dinner",
+          "[ANNUAL DINNER?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "DINNER MENU",
+          "Dinner Menu",
+          "Dinner menu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER MENU"
+      },
+      {
+        "from": [
+          "ANNIVERSARY DINNER",
+          "ANNIVERSARY DINNER?",
+          "ANNIVERSARY [DINNER]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY DINNER"
+      },
+      {
+        "from": [
+          "MITTAGESSEN",
+          "MITTAG-ESSEN",
+          "MITTAGESSEN;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN"
+      },
+      {
+        "from": [
+          "INSPECTION TRIP - LUNCHEON",
+          "INSPECTION TRIP, LUNCHEON",
+          "INSPECTION TRIP, LUNCHEON;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INSPECTION TRIP - LUNCHEON"
+      },
+      {
+        "from": [
+          "A LA CARTE",
+          "a la carte",
+          "a la Carte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A LA CARTE"
+      },
+      {
+        "from": [
+          "BANQUET AND RECEPTION",
+          "reception and banquet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET AND RECEPTION"
+      },
+      {
+        "from": [
+          "DINNER - SECOND CABIN",
+          "DINNER SECOND CABIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER - SECOND CABIN"
+      },
+      {
+        "from": [
+          "INSPECTION TRIP, DINNER",
+          "INSPECTION TRIP, DINNER;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INSPECTION TRIP, DINNER"
+      },
+      {
+        "from": [
+          "MITTAGESSEN/DINNER",
+          "MITTAGESSEN[DINNER]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN/DINNER"
+      },
+      {
+        "from": [
+          "LUNCH MENU",
+          "Lunch menu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH MENU"
+      },
+      {
+        "from": [
+          "REUNION",
+          "[?REUNION?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "REUNION"
+      },
+      {
+        "from": [
+          "LUNCHEON TABLE D'HOTE",
+          "TABLE D'HOTE LUNCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCHEON TABLE D'HOTE"
+      },
+      {
+        "from": [
+          "Tea Menu",
+          "tea menu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tea Menu"
+      },
+      {
+        "from": [
+          "BREAKFAST AND SUPPER",
+          "SUPPER  AND BREAKFAST"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST AND SUPPER"
+      },
+      {
+        "from": [
+          "LUNCHEON MENU",
+          "Luncheon Menu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCHEON MENU"
+      },
+      {
+        "from": [
+          "LUNCH A LA CARTE",
+          "Lunch A La Carte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH A LA CARTE"
+      },
+      {
+        "from": [
+          "Room service",
+          "room service"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Room service"
+      },
+      {
+        "from": [
+          "RECEPTION",
+          "[RECEPTION]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RECEPTION"
+      },
+      {
+        "from": [
+          "WASHINGTON'S BIRTHDAY BANQUET",
+          "BANQUET (WASHINGTON'S BIRTHDAY?)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WASHINGTON'S BIRTHDAY BANQUET"
+      },
+      {
+        "from": [
+          "ABEND-ESSEN",
+          "ABENDESSEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ABEND-ESSEN"
+      },
+      {
+        "from": [
+          "BANQUET",
+          "Banquet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "LUNCH AND DINNER",
+          "lunch and dinner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH AND DINNER"
+      },
+      {
+        "from": [
+          "DINNER TO ABOVE",
+          "DINNER TO ABOVE;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER TO ABOVE"
+      },
+      {
+        "from": [
+          "DAILY LUNCH;",
+          "DAILY LUNCH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY LUNCH;"
+      },
+      {
+        "from": [
+          "LUNCHEON A LA CARTE",
+          "LUNCHEON, A LA CARTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCHEON A LA CARTE"
+      },
+      {
+        "from": [
+          "LINCOLN'S BIRTHDAY DINNER",
+          "DINNER, LINCOLNS BIRTHDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LINCOLN'S BIRTHDAY DINNER"
+      },
+      {
+        "from": [
+          "NEW YEAR'S DINNER",
+          "NEW YEARS DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NEW YEAR'S DINNER"
+      },
+      {
+        "from": [
+          "FIFTH ANNUAL DINNER",
+          "DINNER, FIFTH ANNUAL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FIFTH ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "ST. VALENTINE'S DAY DINNER",
+          "ST. VALENTINES DAY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ST. VALENTINE'S DAY DINNER"
+      },
+      {
+        "from": [
+          "FRUHSTUCK/LUNCH",
+          "FRUHSTUCK-LUNCH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FRUHSTUCK/LUNCH"
+      },
+      {
+        "from": [
+          "TESTIMONIAL DINNER",
+          "Testimonial Dinner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TESTIMONIAL DINNER"
+      },
+      {
+        "from": [
+          "NEW YEAR'S DAY DINNER",
+          "NEW YEARS DAY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NEW YEAR'S DAY DINNER"
+      },
+      {
+        "from": [
+          "EIGHTH ANNUAL BANQUET",
+          "EIGHTH ANNUAL BANQUET'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EIGHTH ANNUAL BANQUET"
+      },
+      {
+        "from": [
+          "DAILY MENU, BREAKFAST",
+          "DAILY BREAKFAST MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, BREAKFAST"
+      },
+      {
+        "from": [
+          "BREAKFAST MENU",
+          "Breakfast Menu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST MENU"
+      },
+      {
+        "from": [
+          "DAILY MENU, LUNCHEON",
+          "DAILY LUNCHEON MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, LUNCHEON"
+      },
+      {
+        "from": [
+          "Daily",
+          "DAILY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Daily"
+      },
+      {
+        "from": [
+          "PRIVATE DINNER",
+          "[PRIVATE DINNER?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PRIVATE DINNER"
+      },
+      {
+        "from": [
+          "INSPECTION TRIP, BREAKFAST",
+          "INSPECTION TRIP - BREAKFAST"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INSPECTION TRIP, BREAKFAST"
+      },
+      {
+        "from": [
+          "SUPPER MENU",
+          "Supper Menu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUPPER MENU"
+      },
+      {
+        "from": [
+          "MITTAGESSEN - DINNER",
+          "MITTAGESSEN [DINNER]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN - DINNER"
+      },
+      {
+        "from": [
+          "LUNCH-DINNER",
+          "LUNCH;DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH-DINNER"
+      },
+      {
+        "from": [
+          "MIDDAG/DINNER",
+          "MIDDAG-DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MIDDAG/DINNER"
+      },
+      {
+        "from": [
+          "DAILY BILL OF FARE",
+          "DAILY BILL OF FARE;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY BILL OF FARE"
+      },
+      {
+        "from": [
+          "FOURTH ANNUAL DINNER",
+          "Fourth Annual Dinner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FOURTH ANNUAL DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DAILY MENU, DINNER",
+          "DAILY DINNER MENU",
+          "DAILY MENU; DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, DINNER"
+      },
+      {
+        "from": [
+          "DAILY LUNCH MENU",
+          "DAILY MENU, LUNCH",
+          "DAILY MENU; LUNCH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY LUNCH MENU"
+      },
+      {
+        "from": [
+          "DINNER,SECOND CABIN",
+          "DINNER-SECOND CABIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER,SECOND CABIN"
+      },
+      {
+        "from": [
+          "LADIES NIGHT",
+          "LADIES' NIGHT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LADIES NIGHT"
+      },
+      {
+        "from": [
+          "WEDDING(?)",
+          "wedding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WEDDING(?)"
+      },
+      {
+        "from": [
+          "DINER",
+          "[DINER]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Breakfast (?) Held By Nordeutscher Lloyd Bremen At On Board The Ss George Washington",
+          "Breakfast  Held By Nordeutscher Lloyd Bremen At On Board The Ss George Washington"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Breakfast  Held By Nordeutscher Lloyd Bremen At On Board The Ss George Washington"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DINNER/DINER",
+          "DINER/DINNER",
+          "DINNER, DINER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER/DINER"
+      },
+      {
+        "from": [
+          "LUNCH & DINNER",
+          "LUNCH-DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH & DINNER"
+      },
+      {
+        "from": [
+          "LUNCH OR DINNER",
+          "LUNCH &/OR DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH OR DINNER"
+      },
+      {
+        "from": [
+          "DINNER A LA CARTE",
+          "DINNER-A LA CARTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER A LA CARTE"
+      },
+      {
+        "from": [
+          "DAILY MENU, LUNCHEON",
+          "DAILY MENU,LUNCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, LUNCHEON"
+      },
+      {
+        "from": [
+          "WEDDING DINNER",
+          "(WEDDING)DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WEDDING DINNER"
+      },
+      {
+        "from": [
+          "BREAKFAST - SECOND CABIN",
+          "BREAKFAST-SECOND CABIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST - SECOND CABIN"
+      },
+      {
+        "from": [
+          "BREAKFAST,LUNCH & DINNER",
+          "BREAKFAST; LUNCH; DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST,LUNCH & DINNER"
+      },
+      {
+        "from": [
+          "DAILY MENU, SUPPER",
+          "DAILY MENU,SUPPER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, SUPPER"
+      },
+      {
+        "from": [
+          "MITTAGESSEN - DINNER",
+          "MITTAGESSEN/DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN/DINNER"
+      },
+      {
+        "from": [
+          "DINNER",
+          "DINNNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DEJEUNER FOURCHETTE/LUNCHEON",
+          "DEJEUNER FOURCHETTE/ LUNCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DEJEUNER FOURCHETTE/LUNCHEON"
+      },
+      {
+        "from": [
+          "(DINNER DANCE)",
+          "DINNER-DANCE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER-DANCE"
+      },
+      {
+        "from": [
+          "DINNER - SECOND CABIN",
+          "DINNER,SECOND CABIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER - SECOND CABIN"
+      },
+      {
+        "from": [
+          "FOURTH OF JULY DINNER",
+          "FOURTH OFJULY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FOURTH OF JULY DINNER"
+      },
+      {
+        "from": [
+          "DAILY MENU, DINNER",
+          "DAILY MENU,DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "COMPLIMENTARY DINNER",
+          "COMPLIMENTARY LUNCHEON",
+          "COMPLIMENTARY BANQUET",
+          "COMPLIMENTARY BANQUET GIVEN BY THE CITY GOVERNMENT OF BOSTON TO THE BOARDS OF TRADE OF THE WESTERN CITIES",
+          "COMPLIMENTARY BANQUET TENDERED TO THE OHIO BANKER'S ASSOCIATION",
+          "COMPLIMENTARY BANQUET TO BOISE COUNCIL NO. 313",
+          "COMPLIMENTARY BANQUET TO HON. ROBERT C. MORRIS,PRES.",
+          "COMPLIMENTARY BREAKFAST",
+          "COMPLIMENTARY DINNER GIVEN TO CHICAGO REPRESENTATIVES",
+          "COMPLIMENTARY DINNER GIVEN TO THE HARVARD CREW",
+          "COMPLIMENTARY DINNER IN HONOR OF A NUMBER OF (RETIRING?) PRINCIPALS;",
+          "COMPLIMENTARY DINNER IN HONOR OF GOV. F. W. ROLLINS OF NEW HAMPSHIRE",
+          "COMPLIMENTARY DINNER IN HONOR OF HIS APPOACHING MARRIAGE",
+          "COMPLIMENTARY DINNER TENDERED TO REV. CHARLES H. PARKHURST, D.D.",
+          "COMPLIMENTARY DINNER TO ANTHONY FIALA OF TROOP \"C,\" U.S.V.",
+          "COMPLIMENTARY DINNER TO CURTIS GUILD, JR.",
+          "COMPLIMENTARY DINNER TO DIRECTORS OF THE FIRST FALL FESTIVAL OF CINCINNATI",
+          "COMPLIMENTARY DINNER TO GEN. FELIX AGNUS OF BALTIMORE",
+          "COMPLIMENTARY DINNER TO HON. GEO. W. GARDNER,(COMMODORE OF CLEVELAND YACHT CLUB),AT THE EXPIRATION OF HIS SECOND TERM AS MAYOR OF THE CITY OF CLEVELAND, OHIO",
+          "COMPLIMENTARY DINNER TO HON. W.J. BRYAN",
+          "COMPLIMENTARY DINNER TO HON. WILLIAM E.S. FALES, VICE CONSUL TO AMOY ON THE OCCASION OF HIS RETURN FROM CHINA",
+          "COMPLIMENTARY DINNER TO MR. EDWARD W. SCOTT, PRESIDENT PRIOR TO HIS DEPARTURE FOR EUROPE",
+          "COMPLIMENTARY DINNER TO MR. JAMES F. GRAHAM",
+          "COMPLIMENTARY DINNER TO MR. ROBERT GORDON",
+          "COMPLIMENTARY DINNER TO SIR F. CARRUTHERS GOULD",
+          "COMPLIMENTARY DINNER TO THE CLASS OF '80; TWENTIETH ANNIVERSARY OF THE GRADUATION CLASS OF '80, UNION, JUNE 27TH 1900;",
+          "COMPLIMENTARY DINNER TO THE FELLOW PASSENGERS OF THE NORMANNIA TO MEET MR. ROBERT M. THOMPSON",
+          "COMPLIMENTARY DINNER TO THE OFFICERS AND CADETS OF WEST POINT MILITARY ACADEMY",
+          "COMPLIMENTARY DINNER TO THE PRESS OF TOLEDO",
+          "COMPLIMENTARY DINNER TO THE REPRESENTATIVES OF THE PRESS OF NEW YORK",
+          "COMPLIMENTARY DINNER TO WARRANT OFFICERS OF H.M. BRIISH NORTH AMERICAN SQUADRON",
+          "COMPLIMENTARY RECEPTION AND BANQUET TENDERED TO NATHANIEL ROBINSON,M.D.",
+          "COMPLIMENTARY SUPPER TO CLASS OF 1900",
+          "COMPLIMENTARY SUPPER TO THE LADIES OF THE HOTEL MEN'S BENEFIT ASSOCIATION",
+          "COMPLIMENTARY TO B.W. ROWELL, ILLUSTRIOUS IMPERIAL RECORDER OF IMPERIAL COUNCIL OF NORTH AMERICA",
+          "COMPLIMENTARY TO MR. W.H.METSON,PRIOR TO HIS DEPARTURE FOR CAPE NOME,ALASKA",
+          "COMPLIMENTERY BANQUET TO MR. N.C. GOODWIN",
+          "COMPLMENTARY BANQUET TO EDWARD M. MORGAN,PRES.",
+          "Complimentary Dinner and Presentation to Matthew A. Henson",
+          "[COMPLIMENTARY DINNER TO THE OFFICERS OF GENERAL SOCIETY]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "COMPLIMENTARY DINNER"
+      },
+      {
+        "from": [
+          "BANQUET IN HONOR OF THE THIRD ANNUAL CONVENTION OF ABOVE",
+          "BANQUET IN HONOR OF ABOVE AND OTHR MEMBERS OF THE BOARD OF HEALTH",
+          "BANQUET IN HONOR OF CHARLES W. FAIRBANKS, VICE PRESIDENT OF U.S.",
+          "BANQUET IN HONOR OF CONGRESSMEN FROM GREATER NEW YORK",
+          "BANQUET IN HONOR OF COUNT FERDINAND DE LESSUPS",
+          "BANQUET IN HONOR OF FERDINAND W. PECK",
+          "BANQUET IN HONOR OF GRAND LODGE OFFICERS",
+          "BANQUET IN HONOR OF HOO HOO",
+          "BANQUET IN HONOR OF JUDGE PETER S. GROSSCUP & JUDGE CHRISTIAN C. KOHLSAAT",
+          "BANQUET IN HONOR OF K. ISHII",
+          "BANQUET IN HONOR OF KAISER WILHELM II",
+          "BANQUET IN HONOR OF M. J.F. PERRAULT",
+          "BANQUET IN HONOR OF MR. HENRY REYNOLDS HATCH",
+          "BANQUET IN HONOR OF REAR ADMIRAL WINFIELD SCOTT SCHLET AND COMMANDER WASHBURN MAYNARD",
+          "BANQUET IN HONOR OF S.E. IL PROF. LUIGI RAVA. MINISTER OF INSTRUCTION",
+          "BANQUET IN HONOR OF THE CHICAGO COMMERCIAL CLUB AND IT GUESTS FROM THE BOSTON, CINCINNATI & ST. LOUIS COMMERCIAL CLUBS",
+          "BANQUET IN HONOR OF THE NATIONAL ASSOCIATION OF RAILROAD COMMISSIONERS OF THE UNITED STATES",
+          "BANQUET IN HONOR OF THE VISIT OF S.M.S. MOLTKE TO NEW ORLEANS",
+          "BANQUET IN HONOR OF VISITING AMERICAN BRETHREN",
+          "BANQUET IN HONOR OF VISITORS OF S.M.S VINETA IN NEW ORLEANS",
+          "BANQUET IN HONOR OF WILLIAM L.STRONG,MAYOR-ELECT OF NY CITY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "11TH ANNUAL DINNER",
+          "15TH ANNUAL DINNER",
+          "4TH ANNUAL DINNER",
+          "14TH ANNUAL DINNER",
+          "18TH ANNUAL DINNER",
+          "20TH ANNUAL DINNER",
+          "12TH ANNUAL DINNER",
+          "13TH ANNUAL DINNER",
+          "16TH ANNUAL DINNER",
+          "25TH ANNUAL DINNER",
+          "28TH ANNUAL DINNER",
+          "30TH ANNUAL DINNER",
+          "34TH ANNUAL DINNER",
+          "37TH ANNUAL DINNER",
+          "57TH ANNUAL DINNER",
+          "5TH ANNUAL DINNER",
+          "7TH ANNUAL DINNER",
+          "8TH ANNUAL DINNER",
+          "9TH ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "25TH ANNIVERSARY",
+          "109TH ANNIVERSARY",
+          "10TH ANNIVERSARY",
+          "112TH ANNIVERSARY",
+          "115TH ANNIVERSARY",
+          "116TH ANNIVERSARY",
+          "138TH ANNIVERSARY",
+          "139TH ANNIVERSARY",
+          "140TH ANNIVERSARY",
+          "259TH ANNIVERSARY",
+          "260TH ANNIVERSARY",
+          "269TH ANNIVERSARY",
+          "40TH ANNIVERSARY",
+          "69TH ANNIVERSARY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "24TH ANNUAL BANQUET",
+          "4TH ANNUAL BANQUET",
+          "8TH ANNUAL BANQUET",
+          "9TH ANNUAL BANQUET",
+          "11TH ANNUAL BANQUET",
+          "13TH ANNUAL BANQUET",
+          "15TH ANNUAL BANQUET",
+          "16TH ANNUAL BANQUET",
+          "20TH ANNUAL BANQUET",
+          "40TH ANNUAL BANQUET",
+          "6TH ANNUAL BANQUET",
+          "10TH ANNUAL BANQUET",
+          "18TH ANNUAL BANQUET",
+          "29TH ANNUAL BANQUET",
+          "34TH ANNUAL BANQUET",
+          "38TH ANNUAL BANQUET",
+          "50TH ANNUAL BANQUET",
+          "7TH ANNUAL BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL BANQUET"
+      },
+      {
+        "from": [
+          "BANQUET TENDERED THE MEMBERS OF THE GENERAL ASSEMBLY OF KENTUCKY",
+          "BANQUET TENDERED TO DR. WILLIAM JARVIE",
+          "BANQUET TENDERED TO HON. PHILIP BLOCH, IN CELEBRATION OF HIS ELECTION AS SECRETARY OF THE BOARD OF POLICE MAGISTRATES",
+          "BANQUET TENDERED TO HON. SAMUEL MC MILLAN, CONGRESSMAN ELECT, 21ST CONGRESSIONAL DISTRICT, NEW YORK",
+          "BANQUET TENDERED TO MR. M.M. FINLEY",
+          "BANQUET TENDERED TO NATIONAL LEAGUE OF COMMISSION MERCHANTS OF THE U.S.",
+          "BANQUET TENDERED TO PRESIDENT ARTHUR T. HADLEY",
+          "BANQUET TENDERED TO THE NATIONAL OFFICERS AND DELEGATES ATTENDING THE ANNUAL CONGESS SONS OF THE AMERICAN REVOLUTION",
+          "BANQUET TENDERED TO THE OFFICERS, DELEGATES AND ALTERNATES OF THE AMERICAN BOWLING CONGRESS AND VISITING MEMBERS OF THE PRESS",
+          "BANQUET TENDERED TO THE STAFFS OF GALVESTON & HOUSTON, TEXAS",
+          "BANQUET TENDERED TO THE VISITING BANKERS",
+          "BANQUET TO INTERNATIONAL RAILWAY CONGRESS",
+          "BANQUET TO INTERNATIONAL STEWARDS' ASSOCIATION SEVENTH ANNUAL CONVENTION",
+          "BANQUET TO UNDER SHERIFF HENRY P. MULVANY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "20TH ANNIVERSARY DINNER",
+          "108TH ANNIVERSARY DINNER",
+          "10TH ANNIVERSARY DINNER",
+          "120TH ANNIVERSARY DINNER",
+          "126TH ANNIVERSARY DINNER",
+          "128TH ANNIVERSARY DINNER",
+          "25TH ANNIVERSARY DINNER",
+          "35TH ANNIVERSARY DINNER",
+          "50TH ANNIVERSARY DINNER",
+          "75TH ANNIVERSARY DINNER",
+          "79TH ANNIVERSARY DINNER",
+          "80TH ANNIVERSARY DINNER",
+          "98TH ANNIVERSARY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY DINNER"
+      },
+      {
+        "from": [
+          "DINNER TENDERED BY MEMBERS TO THE \"SENIOR EIGHT\" IN HONOR OF THEIR VICTORY IN THE SENIOR EIGHT-OARED SHELL RACE AT THE PEOPLE'S REGATTA HELD ON THE SCHUYLKILL RIVER, PHILADELPHIA ON JULY 4, 1906",
+          "DINNER TENDERED TO BROOKLYN LODGE NO. 22",
+          "DINNER TENDERED TO CAPTAIN JOHN COOONEY",
+          "DINNER TENDERED TO DELEGATES TO THE TWENTIETH ANNUAL MEETING OF THE NATION CIVIL SERVICE REFORM LEAGUE",
+          "DINNER TENDERED TO HIS EXCELLENCY",
+          "DINNER TENDERED TO HON. JOHN BARRETT",
+          "DINNER TENDERED TO JUDGE HENRY A. MELVIN",
+          "DINNER TENDERED TO MAJ-GEN FRANCIS VINTON GREENE",
+          "DINNER TENDERED TO R.W. WALTER F. SYKES, D.DGM",
+          "DINNER TENDERED TO SERGT. HOWARD C. WOODBURY",
+          "DINNER TENDERED TO THE CAPTAIN AND OFFICERS OF THE U.S.S.\"LOUISIANA\""
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER IN HONOR OF THE AMERICAN TARIFF COMMISSION",
+          "DINNER IN HONOR OF THE BIRTHDAY OF KING EDWARD VIII",
+          "DINNER IN HONOR OF THE GOVERNOR, HIS CABINET, MEMBERS OF THE LEGISLATURE AND THE FLORIDA PRESS ASSOCIATION",
+          "DINNER IN HONOR OF THE HOTEL MEN'S BENEFIT ASSOCIATION",
+          "DINNER IN HONOR OF THE LORD BISHOP OF LONDON",
+          "DINNER IN HONOR OF THE SHIP'S COMPANY OF H.M.S. GOOD HOPE",
+          "DINNER IN HONOR OF THE SHIP'S COMPANY OF U.S.S. LOUISIANA",
+          "DINNER IN HONOR OF THE VICE PRESIDENT OF THE UNITED STATES AND THE VISITING CONGRESSIONAL COMMITTEE",
+          "DINNER ON HONOR OF THE PARTICIPANTS IN THE TOUR OF THE EVENING AND SUNDAY STAR'S"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "WASHINGTON'S BIRTHDAY DINNER",
+          "WASHINGTON'S BIRTHDAY",
+          "WASHINGTON'S BIRTHDAY BANQUET",
+          "WASHINGTON'S BIRTHDAY REPAST",
+          "WASHINGT0N'S BIRTHDAY",
+          "WASHINGTON'S BIRTHDAY DINNER MENU",
+          "WASHINGTON'S BIRTHDAY EVE",
+          "WASHINGTON'S BUFFET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WASHINGTON'S BIRTHDAY DINNER"
+      },
+      {
+        "from": [
+          "126TH ANNUAL MEETING",
+          "127TH ANNUAL MEETING",
+          "128TH ANNUAL MEETING",
+          "19TH ANNUAL MEETING",
+          "20TH ANNUAL MEETING",
+          "29TH ANNUAL MEETING",
+          "30TH ANNUAL MEETING"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL MEETING"
+      },
+      {
+        "from": [
+          "DINNER IN HONOR OF CIVIL AND MILITARY OFFICIALS OF THE FIRST THREE RANKS",
+          "DINNER IN HONOR OF S.A.R.MONSEIGNEUR le comte TRAPANI",
+          "DINNER IN HONOR OF S.S. PACKARD'S 70TH BITHDAY",
+          "DINNER IN HONOR OF SIR CHENTUNG LIANG- CHENG, ENVOY TO THE UNITED STATES",
+          "DINNER IN HONOR OF SUPREME COURT JUSTICE CHARLES GRANT GARRISON",
+          "DINNER IN HONOUR OF SIR THOMAS LIPTON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER IN HONOR OF H.I.M.MUTSU-HITO 47TH BIRTHDAY",
+          "DINNER IN HONOR OF MARCUS A. HANNA",
+          "DINNER IN HONOR OF MEMBERS OF SUPREME COUNCIL 33, ANCIENT ACCEPTED SCOTTISH RITE & ACCOMPANYING LADIES",
+          "DINNER IN HONOR OF MOST WORSHIPFUL JOSIAH W. EWAN, GRAND MASTER OF MASONS OF STATE OF NEW JERSEY",
+          "DINNER IN HONOR OF MR. FRANK POLLOCK",
+          "DINNER IN HONOR OF MR. THEODORE ROOSEVELT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "14NTH ANNUAL DINNER",
+          "115NTH ANNUAL DINNER",
+          "15NTH ANNUAL DINNER",
+          "17NTH ANNUAL DINNER",
+          "27NTH ANNUAL DINNER",
+          "9NTH ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "DINNER ITO GOVERNOR THOMAS M. CAMPBELL",
+          "DINNER TO GOVERNOR CHARLES E. MAGOON",
+          "DINNER TO GOVERNOR GOULS, LT. GOVERNOR DRAPER, AND THE GOVERNOR'S COUNCIL",
+          "DINNER TO GOVERNOR HASTINGS",
+          "DINNER TO GOVERNOR-ELECT EDWIN S. STUART",
+          "DINNER TO GOVRRNOR EDWARD CASPER STOKES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER GIVEN TO MEN OF NY CENTRAL & HUDSON RR",
+          "DINNER GIVEN TO MR. F.W. MANN, LIEUT. A.I.R., PREVIOUS TO HIS DEPARTURE FOR SOUTH AFRICA",
+          "DINNER GIVEN TO MR. JOHN L. HILL",
+          "DINNER GIVEN TO MR. W.W. COTTON",
+          "DINNER GIVEN TO MUNICIPAL OFFICERS & HEADS OF DEPARTMENTS OF THE CITY OF NEW YORK"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "SIXTEENTH ANNUAL DINNER",
+          "SIXTEENTH ANNUAL BALL",
+          "SIXTEENTH ANNUAL BANQUET",
+          "SIXTEENTH ANNUAL CONVENTION-LUNCHEON",
+          "SIXTEENTH ANNUAL DINNER OF NEW YORK ASSN OF ALUMNI"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "23RD ANNUAL DINNER",
+          "63RD ANNUAL DINNER",
+          "33RD ANNUAL DINNER",
+          "3RD ANNUAL DINNER",
+          "53RD ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "ANNUAL DINNER OF THE 3RD BATTALION",
+          "ANNUAL DINNER OF THE ALTOONA STAFF",
+          "ANNUAL DINNER OF THE NEW YORK ALUMNI",
+          "ANNUAL DINNER OF THE SECTION ON NERVOUS AND MENTAL DISEASES",
+          "Annual Dinner Of The New York University Alumni Association"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "DINNER IN HONOR OF F. HOPKINSON SMITH",
+          "DINNER IN HONOR OF FOREIGN OFFICERS",
+          "DINNER IN HONOR OF FRANK E. BEAL",
+          "DINNER IN HONOR OF FRANK E. ROUNDY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "165TH REGULAR DINNER",
+          "177TH REGULAR DINNER",
+          "184TH REGULAR DINNER",
+          "189TH REGULAR DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER TO HER BRIDESMAIDS",
+          "DINNER TO ROBERT C. OGDEN GIVEN BY THOSE WHO WORKED UNDER HIS LEADERSHIP",
+          "DINNER TO ROBERT T. LINCOLN",
+          "DINNER TO ROBERT TOWNSEND, ASSISTANT DISTRICT ATTORNEY, NEW YORK COUNTY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER GIVEN AT THE SEVENTEENTH ANNUAL CONVENTION OF THE OHIO BANKERS' ASSOCIATION",
+          "DINNER GIVEN TO THE OFFICERS AND REPRESENTATIVES OF THE AMES IRON WORKS",
+          "DINNER GIVEN TO THEIR SALESMEN",
+          "DINNER GIVEN TO THEMSELVES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "TABLE D'HOTE DINNER",
+          "TABLE DE HOTE DINNER/FISH DINNER",
+          "TABLE D'HOTE DINNER MENU",
+          "TABLE D'HOTE DINNER - FROM 12.30 TO 2.30 & 5.30 TO 8 P.M."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TABLE D'HOTE DINNER"
+      },
+      {
+        "from": [
+          "3RD ANNUAL BANQUET",
+          "123RD ANNUAL BANQUET",
+          "33RD ANNUAL BANQUET",
+          "3RD ANNUAL BANQUET IN HONOR OF DR. HUBLEY R. OWEN, PRESIDENT AND CHIEF"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "1ST ANNUAL DINNER",
+          "21ST ANNUAL DINNER",
+          "31ST ANNUAL DINNER",
+          "41ST ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "BANQUET IN CELEBRATION OF 100TH ANNIVERSARY OF FOUNDING",
+          "BANQUET IN CELEBRATION OF ABOVE",
+          "BANQUET IN CELEBRATION OF ST. PATRICK'S DAY",
+          "BANQUET IN CELEBRATION OF WASHINGTON'S FIRST INAUGURATION"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "25TH ANNIVERSARY BANQUET",
+          "18TH ANNIVERSARY BANQUET",
+          "26TH ANNIVERSARY BANQUET",
+          "75TH ANNIVERSARY BANQUET AND BALL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "NINTH ANNUAL BANQUET",
+          "NINTH ANNUAL BANQUEST AND MEETING",
+          "NINTH ANNUAL BANQUET FOR THE HONORABLE HONORE MERCIER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL BANQUET"
+      },
+      {
+        "from": [
+          "2ND ANNUAL BANQUET",
+          "22ND ANNUAL BANQUET",
+          "32ND ANNUAL BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL BANQUET"
+      },
+      {
+        "from": [
+          "DINNER IN HONOR OF ABOVE",
+          "DINNER IN HONOR OF PRES.McKINLEY & MEMBERS OF THE CABINET",
+          "DINNER IN HONOR OF PROFESSOR ALBERT A. MICHELSON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER IN HONOR OF ABOVE"
+      },
+      {
+        "from": [
+          "TESTIMONIAL BANQUET",
+          "TESTIMONIAL BANQUET TO HENTY STARR RICHARDSON",
+          "TESTIMONIAL BANQUET TO HON. CHARLES WELDE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TESTIMONIAL BANQUET"
+      },
+      {
+        "from": [
+          "DAILY MENU - 11;30 T0 3;00",
+          "DAILY MENU - 11;30 TO 3;00",
+          "DAILY MENU, TEA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU"
+      },
+      {
+        "from": [
+          "BANQUET IN COMMEMORATION OF THE 200TH ANNIVERSARY OF THE BIRTH OF DR. BENJAMIN FRANKLIN",
+          "BANQUET IN COMMEMORATION OF WASHINGTON'S BIRTHDAY",
+          "BANQUET IN COMMEMORATON OF WASHINGTON'S INAUGURATION"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "BANQUET TO VISITING CITIZENS OF KNOXVILLE",
+          "BANQUET TO VISITING CONGRESSMEN AND LADIES",
+          "BANQUET TO VISITING GRAND MASTERS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ANNUAL BANQUET",
+          "11 ANNUAL BANQUET",
+          "116 ANNUAL BANQUET",
+          "120 ANNUAL BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL BANQUET"
+      },
+      {
+        "from": [
+          "DINNER",
+          "DNNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "EIGHTH ANNUAL DINNER",
+          "EIGHT ANNUAL DINNER",
+          "EIGTH ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "124TH ANNUAL MEETING (LUNCHEON)",
+          "137TH ANNUAL MEETING, LUNCHEON",
+          "139TH ANNUAL MEETING LUNCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL MEETING (LUNCHEON)"
+      },
+      {
+        "from": [
+          "LUNCH AND DINNER",
+          "LUMCH AND DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH AND DINNER"
+      },
+      {
+        "from": [
+          "MITTAGESSEN",
+          "MITAGESSEN",
+          "MITTAGESEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN"
+      },
+      {
+        "from": [
+          "100TH DINNER",
+          "38TH DINNER",
+          "DAY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "11NTH ANNUAL BANQUET",
+          "19NTH ANNUAL BANQUET",
+          "7NTH ANNUAL BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL BANQUET"
+      },
+      {
+        "from": [
+          "2ND ANNUAL DINNER",
+          "32ND ANNUAL DINNER",
+          "22ND ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "20TH MEETING",
+          "297TH MEETING",
+          "59TH MEETING"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MEETING"
+      },
+      {
+        "from": [
+          "LUNCHEON MENU",
+          "LUNCH MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      },
+      {
+        "from": [
+          "DINNER FOR 150 GUESTS",
+          "DINNER FOR 50 GUESTS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "LUNCHEON",
+          "LINCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      },
+      {
+        "from": [
+          "54TH ANNUAL REUNION",
+          "55HT ANNUAL REUNION"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL REUNION"
+      },
+      {
+        "from": [
+          "12TH ANNUAL MEETING & BANQUET",
+          "25TH ANNUAL MEETING & BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL MEETING & BANQUET"
+      },
+      {
+        "from": [
+          "ANNUAL DINNER",
+          "12 ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "THANKSGIVING DINNER",
+          "THNAKSGIVING DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "THANKSGIVING DINNER"
+      },
+      {
+        "from": [
+          "173RD REGULAR MEETING",
+          "93RD REGULAR MEETING"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MEETING"
+      },
+      {
+        "from": [
+          "CHRISTMAS DINNER",
+          "CHRISTMAS DINNR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CHRISTMAS DINNER"
+      },
+      {
+        "from": [
+          "BREAKFAST - A LA CARTE",
+          "Breakfast ˆ La Carte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST - A LA CARTE"
+      },
+      {
+        "from": [
+          "DINNER A LA CARTE",
+          "Dinner ˆ La Carte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER A LA CARTE"
+      },
+      {
+        "from": [
+          "LUNCH A LA CARTE",
+          "Lunch ˆ La Carte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH A LA CARTE"
+      },
+      {
+        "from": [
+          "ANNIVERSARY DINNER",
+          "28 ANNIVERSARY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY DINNER"
+      },
+      {
+        "from": [
+          "1ST ANNUAL BANQUET",
+          "31ST ANNUAL BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL BANQUET"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DINNER IN HONOR OF ABOVE",
+          "DINNER IN HONOR O GENERAL NELSON A. MILES",
+          "DINNER IN HONOR OF CORNELIUS FERGUESON",
+          "DINNER IN HONOR OF DON RAMON PINA Y MILLET",
+          "DINNER IN HONOR OF DR.D.GABRIEL CASUSO",
+          "DINNER IN HONOR OF DUKE ABRUZZI",
+          "DINNER IN HONOR OF GEN. H.G. GIBSON",
+          "DINNER IN HONOR OF GEORGE MCGOWN OF PALMYRA NY",
+          "DINNER IN HONOR OF HAAKON VII WHEN HE RECEIVED THE ORDER OF THE GARTER OF WINDSOR AND ENGLAND",
+          "DINNER IN HONOR OF HAKAN JOHANSEN",
+          "DINNER IN HONOR OF HON. J.I.CLARKE HARE",
+          "DINNER IN HONOR OF HON. JAMES T. STRANHAN",
+          "DINNER IN HONOR OF JAMES J. HILL, PRES. OF GREAT NORTHERN RR",
+          "DINNER IN HONOR OF JOHN A. MCCALL",
+          "DINNER IN HONOR OF LYMAN F. GAGE",
+          "DINNER IN HONOR OF RAPHAEL WEILL",
+          "DINNER IN HONOR OF REAR ADMIRAL WILLIAM T. Sampson, US NAVY",
+          "DINNER IN HONOR OF WU TING-FAN, HIS IMPERIAL CHINESE MAJESTY'S ENVOY EXTRAORDINARY AND MINISTER PLENIPOTENTIARY TO THE UNITED STATES, SPAIN AND PERU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER GIVE ONN EVE OF THE ARTS GUILD CINDERELLA BALL",
+          "DINNER GIVEN BY ABOVE",
+          "DINNER GIVEN BY ALEXANDER AGASSIZ, PRESIDENT OF THE NATIONAL ACADEMY OF SCIENCES",
+          "DINNER GIVEN BY GEORGE C. BOLDT TO HIS EMPLOYEES",
+          "DINNER GIVEN BY MR. RODMAN WANAMAKER ON THE OCCASION OF NEW HOME",
+          "DINNER GIVEN IN HONOR OF MR. LUCIUS E. JOHNSON",
+          "DINNER GIVEN IN HONOUR OF JUDGE HENRY STEINERT",
+          "DINNER GIVEN TO COMMODORE HARRY B. GILPIN",
+          "DINNER GIVEN TO DR. M.F. FOLEY",
+          "DINNER GIVEN TO H.H. KOOP, JR. IN HONOR OF HIS 33RD BIRTHDAY",
+          "DINNER GIVEN TO HIS USHERS",
+          "[DINNER GIVEN TO FRIENDS]",
+          "[DINNER GIVEN TO HON. HENRY WHITE AND OTHERS]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "(DINNER TO PRES. ULISES HEUREAUZ)",
+          "DINNER TO BOARD OF ALDERMEN",
+          "DINNER TO BRIG.-GEN.J.FRANKLIN BELL USA",
+          "DINNER TO BROWN UNIVERSITY DEBATING TEAMS",
+          "DINNER TO FRANK HURD ROBINSON,GRAND MASTER",
+          "DINNER TO FRIENDS",
+          "DINNER TO J.F.BURKE AND H.M.GERRANS",
+          "DINNER TO PERCY SANDERSON, H.B.M.C.G.",
+          "DINNER TO PRESIDENT FALLIERES",
+          "DINNER TO PRESIDENT THEODORE ROOSEVELT",
+          "DINNER TO PRINCE AND PRINCESS OF WALES",
+          "DINNER TO PRINCE CHARLES & PRINCESS MAUD OF DENMARK",
+          "DINNER TO PRIZE WINNERS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER AT THE 97TH MEETING",
+          "DINNER TO ADMIRAL PRINCE LOUIS OF BATTENBERG",
+          "DINNER TO DANIEL V. MASTERSON",
+          "DINNER TO THE AMERICAN GYNECOLOGICAL SOCIETY",
+          "DINNER TO THE ENGLISH MINISTER TO CUBA, MR. A.C. GRANT-DUFF",
+          "DINNER TO THE MEMBERS OF THE REPUBLICAN EDITORIAL ASSOCIATION OF THE STATE OF NEW YORK",
+          "DINNER TO THE MEMBERSHIP OF THE NEW YORK LIBRARY ASSOCIATION",
+          "DINNER TO THE MOST HON. MARQUESS OF LANSDOWNE, K.G.,P.G., G.G.S.I., G.G.I.E., G.G.M.G.",
+          "DINNER TO THE NEW YORK STATE STENOGRAPHERS' ASSOCIATION",
+          "DINNER TO THE NON-COMMISSIONED OFFICERS IN RECOGNITION OF THEIR WORK JUNE 9TH-16TH 1900;",
+          "DINNER TO TIMOTHY P. SULLIVAN",
+          "[DINNER TO THE NATIONAL ACADEMY OF SCIENCES]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "(DINNER) FOR THE OPENING OF SIMPSON TIMBER DRY DOCK",
+          "DINNER FOR 50TH ANIVERSARY",
+          "DINNER FOR DR. G.C.WEBER AND FRIENDS",
+          "DINNER FOR RT. REV. BISHOP JAMES AUGUSTIN MC PAUL",
+          "DINNER FOR THE ADMIRAL OF THE NAVY",
+          "DINNER FOR THE CONGRESS OF THE WHITE RIBBON",
+          "DINNER FOR THE DEDICATION OF THE STATUE OF FERDINAND DE JESSIPS,30 YEARS AFTER THE OPENING OF THE SUEZ CANAL",
+          "DINNER FOR THE DEMOCRATIC MEMBERS ELECT FROM NEW YORK TO THE 56TH CONGRESS",
+          "DINNER FOR THE HON. S. W. DORSEY",
+          "DINNER PARTY",
+          "[DINNER] FOR THE INAUGURATION OF BATTESIMO OF BANDIERE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER BY OR FOR HENRY HILTON",
+          "DINNER FOR BARTOLOMEO BERTINI AND MARGHERITA ANDREINI BERTINI",
+          "DINNER FOR BOND COMMITTEE AND OFFICERS OF THE COLONIAL CLUB",
+          "DINNER FOR BOSTON COMMANDERY, KNIGHTS TEMPLAR, AND LADIES",
+          "DINNER FOR FOREFATHERS' DAY",
+          "DINNER FOR FRANK C. BONE",
+          "DINNER FOR OFFICERS OF THE REVIEW OF JULY 14",
+          "DINNER FOR VISITING MEMBERS OF THE GOVERNING BOARD OF THE INTERNATIONAL LEAGUE OF PRESS CLUBS",
+          "DINNER, FAREWELL TO HON.HENRY WHITE, U.S.MINISTER TO ITALY",
+          "[DINNER FOR APPLETON AND SLAVEN]",
+          "[DINNER FOR W.CHAMBERLAIN AND SIR CHARLES TUPPER OF THE FISHERIES COMMISSION]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LUNCH OR DINNER",
+          "DINNER OR LUNCH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH OR DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SUPPER MENU",
+          "SUPPER MEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUPPER MENU"
+      },
+      {
+        "from": [
+          "BANQUET",
+          "BANCHETTO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BANQUET FOR F. BARBEDIENNE",
+          "BANQUET FOR JOHN MARSHALL DAY",
+          "BANQUET FOR JOHN ROONEY AND FRIENDS",
+          "BANQUET FOR L. PASTEUR",
+          "BANQUET FOR LIEUT.-COL. FRANCIS G. WARD OF 202 USV",
+          "BANQUET FOR R.M.LITTLER",
+          "BANQUET FOR TERCENTENARY CELEBRATIN",
+          "BANQUET FOR THE OPENING OF THE NEW TOWNHALL",
+          "BANQUET FOR THE PRESIDENT OF THE UNION",
+          "BANQUET TO PORTER KING MAYOR OF ATLANTA AND THE HONORARY ATLANTA ESCORT OF THE LIBERTY BELL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "FAREWELL DINNER",
+          "FAREWELL DINNER TO CAPTAIN G.J. JOHNSTON",
+          "FAREWELL DINNER TO GENERAL POWELL CLAYTON, AMBASSADOR TO MEXICO",
+          "FAREWELL DINNER TO JULIAN D. FAIRCHILD",
+          "FAREWELL DINNER TO MAESTRO GIACOMO PUCCINI ON THE OCCASION OF HIS DEPARTURE TO EUROPE",
+          "FAREWELL DINNER TO MR. HENRY GEORGE ON THE OCCASION OF HIS DEPARTURE FOR AUSTRALIA",
+          "FAREWELL DINNER TO MR. WILLIAM CLARK",
+          "FAREWELL DINNER TO THE RETIRING HEAD MASTER AND MEMBERS OF THE FACULTY OF ST. PAUL'S SCHOOL",
+          "[FAREWELL DINNER FOR THE JAPANESE MINISTER,W.KUKI]",
+          "[FAREWELL DINNER GIVEN BY MR. THOMAS HASTINGS BEFORE HIS MARRIAGE TO MISS HELEN BENEDICT]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FAREWELL DINNER"
+      },
+      {
+        "from": [
+          "(DINNER FOR HON. JOHN REILLY)",
+          "DINNER FOR GUESTS OF MINNESOTA IRON COMPANY",
+          "DINNER FOR HIS EXCELLENCY GOVERNOR SIR AMBROSE SHEA, KCMG",
+          "DINNER FOR HIS FRIENDS,MEMBERS OF THE NEW YORK COMMITTEE OF THE SOUTH-EASTERN RAILROAD CO. OF YUCATAN",
+          "DINNER FOR HON. ANTHONY HOWELLS",
+          "DINNER FOR HON. WARNER MILLER; PRES. OF NICARAGUA CANAL CONSTRUCTION CO.",
+          "DINNER FOR KING AND QUEEN OF PORTUGAL",
+          "DINNER,BREAKFAST AND A LA CARTE",
+          "[DINNER] FOR HON JOHN A KASSON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "BANQUET AND RECEPTION",
+          "BANQUET AND BALL",
+          "BANQUET AND INAUGURAL BALL FOR PRESIDENT BENJAMIN HARRISON AND VICE-PRESIDENT LEVI MORTON",
+          "BANQUET AND JUBILEE FOR HON.NEAL DOW",
+          "BANQUET AND MEETING",
+          "BANQUET AND RECEPTION COMMEMORATING 50 YEARS SINCE THE ADMISSION OF HONORABLE JAMES TYNDALE MITCHELL,LL.D. CHIEF JUSTICE OF THE SUPREME COURT OF PA TO THE BAR OF PHILADELPHIA",
+          "BANQUET ON 34TH ANNIVERSARY OF APPOMATTEX DAY (\"THE FIRST DAY OF PEACE\")",
+          "BANQUET TO NATIONAL ASSOCIATION OF CREDIT MEN",
+          "BANQUET TO NATIONAL BRICK MANUFACTURERS, mericaN CERAMIC SOCIETY, NATIONAL PAVING BRICK MANUFACTURERS ASSN; NATIONAL BRICK  MACHINERY AMNUFACTURERS ASSN;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "ANNUAL BANQUET",
+          "ANNUAL BANQUET AND RECEPTION",
+          "ANNUAL BANQUET CELEBRATING THE BATTLES OF LEXINGTON AND CONCORD",
+          "ANNUAL BANQUET GIVEN ON THE FIFTIETH ANNIVERSARY OF FOUNDING",
+          "ANNUAL BANQUET IN COMMEMORATION OF THE 98TH ANNIVERSARY OF THE BIRTH OF ABRAHAM LINCOLN",
+          "ANNUAL BANQUET OF THE COMMANDERY",
+          "ANNUAL BANQUET TENDERED TO THEIR REPRESENTATIVES",
+          "ANNUAL BANQUET TO GRADUATES OF CLASS OF 1892",
+          "ANNUAL BANQUET TO THE MANAGERS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL BANQUET"
+      },
+      {
+        "from": [
+          "ANNUAL MEETING",
+          "ANNUAL MEETING (LUNCHEON)",
+          "ANNUAL MEETING & BANQUET",
+          "ANNUAL MEETING & DINNER",
+          "ANNUAL MEETING AND BANQUET",
+          "ANNUAL MEETING AND DINNER",
+          "ANNUAL MEETING LUNCH",
+          "ANNUAL MEETING ON THE 169TH ANNIVERSARY OF THE BIRTH OF GEORGE WASHINGTON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL MEETING"
+      },
+      {
+        "from": [
+          "DINNER FOR JOHN MARSHALL DAY",
+          "DINNER FOR M. FERDINAND DE LESSEPS AND CAPT.NATHAN APPLETON",
+          "DINNER FOR M.W. WM. SHERER, GRAND MASTER OF MASONS OF NYS",
+          "DINNER FOR MAHARAJA SCINDIYA",
+          "DINNER FOR MEMBRES ETRANGERS DU CONGRES DES MEDECINS A BERGEN",
+          "DINNER FOR MONSIEUR JULES CAMBON, AMBASSADEUR DE LA REPUBLIC FRANCAISE AUX ETATS-UNIS",
+          "DINNER FROM 6 TO 8",
+          "DINNER O PRINCE AND PRINCESS OF WALES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER TO THE AGENTS OF THE FRANK JONES BREWING CO.",
+          "DINNER TO THE GRIDIRON CLUB",
+          "DINNER TO THE HOLLAND SOCIETY OF NEW YORK ON THE OCCASION OF THE SOCIETY'S VISIT TO KINGSTON, NY",
+          "DINNER TO THE HON. EDWIN S. STUART",
+          "DINNER TO THE HONORABLE GEORGE VON L. MEYER, POSTMASTER GENERAL OF THE UNITED STATES",
+          "DINNER TO THE HONORABLE JOSEPH A. GOULDEN IN APPRECIATION OF HIS LONG, FAITHFUL AND EFFICIENT SERVICE AS A SCHOOL OFFICIAL OF THE BRONX",
+          "DINNER TO THE KINDERGARTEN CLUB",
+          "DINNER TO THE QUEEN REGENT OF SPAIN,MARIE CHRISTINE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER/DINER",
+          "DINNER TO AMERICAN PRESS HUMORISTS",
+          "DINNER TO MR. ALBERT FOSTER ON HIS RETURN FROM EUROPE",
+          "DINNER TO MR. B.F.MARTIN",
+          "DINNER TO MR. FRANK GANNON",
+          "DINNER TO MR. JOSEPH B.WITMAN",
+          "DINNER TO MR. R. R. BRINGHURST",
+          "DINNER TO MR. WILLIAM T. EVANS, BY SOME OF HIS FRIENDS TO COMMEMORATE HIS GIFT OF AMERICAN PAINTINGS TO THE NATION"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "RECEPTION & DINNER",
+          "RECEPTION & DINNER TO MR. WILLIAM J. BRYAN",
+          "RECEPTION TO MISS COSSIO Y. CISNEROS ON THE OCCASION OF HER RESTORATION TO FREEDOM",
+          "RECEPTION TO PRESIDENT OF US AND GOVS. OF STATES AND TERR.",
+          "RECEPTION TO SIR EDWIN B.ANDERSON,GRAND CAPTAIN GENERAL",
+          "RECEPTION TO SIR JAMES S.MANNING,GRAND SWORD-BEARER,GRAND COMMANDERN OF THE STATE OF NY;",
+          "RECEPTION TO THE RIGHT WORTHY GRAND LODGES,LUNCH AND DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RECEPTION & DINNER"
+      },
+      {
+        "from": [
+          "DINNER TO DIPLOMATIC CORPS",
+          "DINNER TO THE BOARD OF OFFICERS OF THE CATHOLIC CLUB OF THE CITY OF NEW YORK",
+          "DINNER TO THE FRANKLIN DINNER COMMITTEE",
+          "DINNER TO THE PENNSYLVANIA DELEGATION IN CONGRESS",
+          "DINNER TO THE PRESIDENT AND BOARD OF DIRECTORS OF THE PAN AMERICAN EXPOSITION",
+          "DINNER TO THE PRESIDENT OF THE US & THE INLAND WATERWAYS COMMISSION",
+          "[DINNER TO THE PRESS AT THE OPENING OF NEW CLUB HOUSE]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "LUNCH/MITTAGS-KARTE",
+          "LUNCHEON TO GENTLEMEN WHO ACCOMPANIED HIM ON THE FIRST TRAIN THROUGH THE BELMONT TUNNEL UNDER THE EAST RIVER ON OPENING DAY [OF IRT]",
+          "LUNCHEON TO GEORGE W. CHILDS",
+          "LUNCHEON TO GOVERNOR BUSHNELL AND STAFF AND OHIO COMMISSIONERS",
+          "LUNCHEON TO HON.WILLIAM JENNINGS BRYAN",
+          "LUNCHEON TO HOTEL MEN'S MUTUAL BENEFIT ASSOCIATION",
+          "LUNCHEON TO HOTEL MEN'S MUTUAL BENEFIT ASSOCIATION,LADIES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      },
+      {
+        "from": [
+          "BANQUET TO THE FOREIGN MISSIONARY BOARDS OF US & CANADA",
+          "BANQUET TO THE OFFICERS OF THE CRUISER BALTIMORE",
+          "BANQUET TO THE PHOENIX & MARICOPA COUNTY BOARD OF TRADE",
+          "BANQUET TO THE VISITING MEMBERS OF THE NATIONAL ACADEMY OF SCIENCES",
+          "BANQUET TO THE VISITING PRESS OF THE UNITED STATES FOR THE GRAND LODGE REUNION",
+          "BANQUET TO THE WESTERN ASSOCIAION OF SHOE WHOLESALERS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET"
+      },
+      {
+        "from": [
+          "(DINNER FOR COMMITTEE FOR PRELIMINARIES FOR THE WORLD'S FAIR)",
+          "DINNER FOR (CZAR AND CZARENNA, KING AND QUEEN OF GREECE, PRINCE AND PRINCESS OF WALES)",
+          "DINNER FOR CHAIRMEN HON.RANDOLPH GUGGENHEIMER AND GENERAL DANIEL BUTTERFIELD",
+          "DINNER FOR CLASS OF 1863",
+          "DINNER FOR H.E. SIR GEORGE WHITE",
+          "DINNER FOR JOSEPH AUGUST?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER \"TO THOSE WHO ARE ABOUT TO LEAVE US TEMPORARILY\"",
+          "DINNER TO THE CALIFORNIA DELEGATION AT THE REPUBLICAN NATIONAL CONVENTION",
+          "DINNER TO THE COMMANDER & OFFICERS OF ROYAL NETHERLAND'S VAN SPEYK",
+          "DINNER TO THE COMMISSIONERS FROM ENGLAND, GERMANY AND DENMARK TO THE COLUMBIAN EXPOSITION",
+          "DINNER TO THE CROWNED HEADS,WHO CAME TO THE CZAR'S FATHER FUNERAL;",
+          "DINNER TO THE STICK TOGETHER CLUB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER TO DR. A. CONAN DOYLE",
+          "DINNER TO DR.L.W.READ SURGEON GENERAL OF THE STATE OF PENNSYLVANIA",
+          "DINNER TO DR.OTTO NORDENSKJOLD",
+          "DINNER TO THE ARTILLERY OFFICERS OF THE STATE OF NEW YORK",
+          "DINNER TO THE RECTOR AND PROFESSORS OF THE UNIVERSITY OF CHRISTIANIA",
+          "DINNER TO THE RIGHT HON. JAMES BRYCE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINNER TO M. WARLEY PLATZEK IN HONOR OF HIS ELECTION AS A JUSTICE OF THE SUPREME COURT",
+          "DINNER TO M.W.JOHN STEWART,GRAND MASTER OF MASONS,STATE OF NY",
+          "DINNER TO NEWSPAPER MEN WHO PARTICIPATED IN THE RECENT \"RIOT\"",
+          "DINNER TO NEWSPAPER PESS OF PHILADELPHIA AND ATLANTIC CITY",
+          "DINNER TO NEWSPAPER PUBLICITY MEN OF PHILADELPHIA POLITICS",
+          "DINNER,20TH ANNIVERSARY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LUNCHEON IN HONOR OF MRS. MANNING",
+          "LUNCHEON IN HONOR OF SIR CHENTUNG LIANGCHENG"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      },
+      {
+        "from": [
+          "LUNCHEON - PULLMAN DINING CAR SERVICE",
+          "LUNCHEON,BILL OF FARE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      },
+      {
+        "from": [
+          "DINNER TO PHILIPPE HEBERT [SCULPTEUR] ON HIS DEPARTURE TO EUROPE",
+          "DINNER TO WELCOME ROBERT GARRETT, PRESIDENT OF THE BALTIMORE & OHIO RAILROAD, TO STATEN ISLAND"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LUNCHEON A LA CARTE",
+          "LUNCH?; 18 ANNUAL CONVENTION"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      },
+      {
+        "from": [
+          "LUNCHEON [ON FUNERAL TRAIN OF PRESIDENT McKINLEY?]",
+          "LUNCHEON ON BOARD USS RALEIGH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      },
+      {
+        "from": [
+          "EVENING MEAL",
+          "Evening menu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "ANNUAL OUTING",
+          "ANNUAL OUTING OF EDWARD THOMPSON CO."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL OUTING"
+      },
+      {
+        "from": [
+          "SPECIAL DINNER",
+          "SPECIAL DINNER COMMEMORATIVE OF THE VISIT OF THE ITALIAN CRUISER \"ETTORE FIERAMOSRA\""
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SPECIAL DINNER"
+      },
+      {
+        "from": [
+          "DAILY MENU, DINNER",
+          "DAILY MENU, DINNER SPECIALITIES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, DINNER"
+      },
+      {
+        "from": [
+          "NEW YEAR'S DINNER",
+          "NEW YEAR'S DINNER TO THE DIPLOMATIC CORPS AND THEIR LADIES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NEW YEAR'S DINNER"
+      },
+      {
+        "from": [
+          "SUPPER TO AMERCICAN WAREHOUSEMENS' ASSOCIATION",
+          "supper; dinner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "HAUPTMAHLZEIT-DINNER",
+          "HAUPTMAHLZEIT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "2ND ANNUAL DINNER COMMEMORATING THE FIRST CENTENNIAL OF ROCKLAND COUNTY",
+          "2ND ANNUAL DINNER TO HON. RICHARD L. ASHHURST, POSTMASTER AND MR. GEORGE W. KNOWLES, ASSISTANT POSTMASTER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DINNER TO GEN. HORACE PORTER, AMBASSADOR TO FRANCE;",
+          "DINNER TO HON FREDERICK CARROLL BREWSTER",
+          "DINNER TO HON. CHAS. F. FAIRCHILD,SECRETARY OF THE TREASURY",
+          "DINNER TO HON. HENRY W. GRADY AND PARTY",
+          "DINNER TO HON. WILLIAM RUMSEY",
+          "DINNER TO HON.ETHAN ALLEN HITCHCOCK,SECRETARY OF THE INTERIOR",
+          "DINNER TO HON.ISAAC H. TERRELL",
+          "DINNER TO HON.JAMES G. BLAINE",
+          "DINNER TO HON.JOHN J.JACKSON,JUDGE OFTHE DISTRICT COURT OF THE UNITED STATES FOR THE DISTRICT OF WEST VIRGINIA",
+          "DINNER TO HONORABLE WILLIAM POTTER, UNITED STATES MINISTER TO ITALY",
+          "DINNER TO HONOURABLE JOHN B.McPHERSON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "OTHER (SOC);",
+          "OTHER (SOC?);",
+          "OTHER (SOC?)",
+          "OTHER (SOC)",
+          "OTHER [SOC?];",
+          "OTHER  (SOC);",
+          "OTHER (SOC.)",
+          "OTHER )SOC);",
+          "OTHER [SOC]",
+          "OTHER, [SOC?];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (SOC);"
+      },
+      {
+        "from": [
+          "COMPL.",
+          "[COMPL?];",
+          "COMPL?;",
+          "[COMPL];",
+          "COMPL (?);",
+          "COMPL(?);",
+          "COMPL;(?)",
+          "[COMPL.]",
+          "[COMPL]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "COMPL."
+      },
+      {
+        "from": [
+          "ANNIVERSARY;",
+          "ANNIVERSARY (?);",
+          "ANNIVERSARY(?);",
+          "ANNIVERSARY",
+          "ANNIVERSARY.",
+          "ANNIVERSARY?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY"
+      }
+    ],
+    "description": "Mass edit cells in column occasion"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "grel:value.replace(';','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column occasion using expression grel:value.replace(';','')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SOC",
+          "[SOC?]",
+          "(SOC?)",
+          "[SOC]",
+          "(SOC)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SOC"
+      },
+      {
+        "from": [
+          "OTHER (ANNIVERSARY)",
+          "OTHER (ANNIVERSARY?)",
+          "OTHER - ANNIVERSARY",
+          "OTHER {ANNIVERSARY}"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNIVERSARY)"
+      },
+      {
+        "from": [
+          "[ANNIV?]",
+          "(ANNIV)",
+          "(ANNIV?)",
+          "[?ANNIV?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNIVERSARY)"
+      },
+      {
+        "from": [
+          "OTHER (REUNION)",
+          "(OTHER - REUNION?)",
+          "OTHER  (REUNION)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (REUNION)"
+      },
+      {
+        "from": [
+          "OTHER (SOCIAL?)",
+          "OTHER (SOCIAL)",
+          "OTHER [SOCIAL]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (SOCIAL)"
+      },
+      {
+        "from": [
+          "OTHER (ANNUAL EVENT)",
+          "OTHER {ANNUAL EVENT}",
+          "OTHER, ANNUAL EVENT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNUAL EVENT)"
+      },
+      {
+        "from": [
+          "PATRIOTIC HOLIDAY",
+          "PATRIOTIC HOLIDAY.",
+          "PATRIOTIC HOLIDAY. HOLIDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PATRIOTIC HOLIDAY"
+      },
+      {
+        "from": [
+          "OTHER (COMMEMORATIVE)",
+          "OTHER (COMMEMORATIVE?)",
+          "OTHER [COMMEMORATIVE]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (COMMEMORATIVE)"
+      },
+      {
+        "from": [
+          "SECULAR HOLIDAY",
+          "SECULAR HOLIDAY. HOLIDAY",
+          "SECULAR HOLIDAY HOLIDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SECULAR HOLIDAY"
+      },
+      {
+        "from": [
+          "DAILY",
+          "[DAILY]",
+          "DAILY?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY"
+      },
+      {
+        "from": [
+          "(SOCIAL)",
+          "(SOCIAL?)",
+          "SOCIAL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SOCIAL"
+      },
+      {
+        "from": [
+          "ANNUAL",
+          "[ANNUAL]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL"
+      },
+      {
+        "from": [
+          "OTHER (MEETING)",
+          "OTHER (MEETING?)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (MEETING)"
+      },
+      {
+        "from": [
+          "OTHER (DAILY DATED MENU)",
+          "OTHER (DATED DAILY MENU)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (DAILY DATED MENU)"
+      },
+      {
+        "from": [
+          "POL",
+          "[POL?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "POL"
+      },
+      {
+        "from": [
+          "DAILY MENU",
+          "(DAILY MENU)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU"
+      },
+      {
+        "from": [
+          "RITE",
+          "(RITE)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RITE"
+      },
+      {
+        "from": [
+          "ETHNIC HOLIDAY",
+          "[ETHNIC HOLIDAY]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ETHNIC HOLIDAY"
+      },
+      {
+        "from": [
+          "OTHER (ANNIV)",
+          "OTHER (ANNIV?)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNIV)"
+      },
+      {
+        "from": [
+          "OTHER",
+          "OTHER,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER"
+      },
+      {
+        "from": [
+          "OTHER (ANNUAL MEETING)",
+          "OTHER {ANNUAL MEETING}"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNUAL MEETING)"
+      },
+      {
+        "from": [
+          "RELIG. HOLIDAY",
+          "RELIG HOLIDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RELIG. HOLIDAY"
+      },
+      {
+        "from": [
+          "ANNUAL DINNER",
+          "ANNUAl DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column occasion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "?",
+          "[?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "?"
+      },
+      {
+        "from": [
+          "[?REUNION?]",
+          "[RE-UNION]",
+          "[REUNION]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "REUNION"
+      },
+      {
+        "from": [
+          "SECULAR HOLIDAY.HOLIDAY",
+          "SECULAR HOLIDAYHOLIDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SECULAR HOLIDAY.HOLIDAY"
+      },
+      {
+        "from": [
+          "ANIV",
+          "[ANIV?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANIV"
+      }
+    ],
+    "description": "Mass edit cells in column occasion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "(COMPLFOR MAHARAJA SCINDIYA)",
+          "COMPL FOR MAHARAJA SCINDIYA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "COMPL FOR MAHARAJA SCINDIYA"
+      },
+      {
+        "from": [
+          "OTHER (ANNUAL EVENT)",
+          "OTHER,ANNUAL EVENT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNUAL EVENT)"
+      },
+      {
+        "from": [
+          "DAILY MENU",
+          "DAILYMENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU"
+      },
+      {
+        "from": [
+          "OTHER (ANNUAL BANQUET)",
+          "OTHER,Annual Banquet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNUAL BANQUET)"
+      },
+      {
+        "from": [
+          "OTHER (ANNUAL MEETING)",
+          "OTHER,Annual Meeting"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNUAL MEETING)"
+      },
+      {
+        "from": [
+          "RELIG. HOLIDAY",
+          "RELIG.HOLIDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RELIG. HOLIDAY"
+      },
+      {
+        "from": [
+          "OTHER (ANNUAL DINNER)",
+          "OTHER,,annual dinner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNUAL DINNER)"
+      },
+      {
+        "from": [
+          "TRIP OF PRES. McKINLEY, HIS CABINET & GUESTS",
+          "TRIP OF PRES. McKINLEY,HIS CABINET & GUESTS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TRIP OF PRES. McKINLEY, HIS CABINET & GUESTS"
+      }
+    ],
+    "description": "Mass edit cells in column occasion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "OTHER (COMMEMORATION)",
+          "OTHER,Commemoration"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (COMMEMORATION)"
+      }
+    ],
+    "description": "Mass edit cells in column occasion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "OTHER (COMMEMORATIVE)",
+          "OTHER  [COMMEMORTIVE?]",
+          "OTHER (COMMEMORATIE)",
+          "OTHER (COMMEMORATING RESUMPTION OF BUSINESS AFTER EARTHQUAKE AND FIRE)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (COMMEMORATIVE)"
+      },
+      {
+        "from": [
+          "OTHER (SOC)",
+          "OTHER (S0C?)",
+          "OTHR (SOC)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (SOC)"
+      },
+      {
+        "from": [
+          "OTHER (DAILY DATED MENU)",
+          "OTHER (DAILY DATED MENU FOR HOTEL)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (DAILY DATED MENU)"
+      },
+      {
+        "from": [
+          "OTHER (PRIVATE PARTY)",
+          "OTHER [PRIVATE PARTY FERDINARD DE LESSEPS AND PARTY]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (PRIVATE PARTY)"
+      },
+      {
+        "from": [
+          "OTHER,UNIVERSITY ANNIVERSARY",
+          "OTHER,UNIVERSITY PAPER ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER,UNIVERSITY ANNIVERSARY"
+      },
+      {
+        "from": [
+          "ANNIVERSARY",
+          "ANIVERSARY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY"
+      },
+      {
+        "from": [
+          "OTHER (COMMEMOATION)",
+          "OTHER {COMMEMOATION OF DEATH OF U.S. GRANT}"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (COMMEMOATION)"
+      },
+      {
+        "from": [
+          "ANNIVERSARY(FIFTH OF FOUNDING)",
+          "ANNIVERSARY,(FIFTEENTH ANNUAL CONVENTION)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY(FIFTH OF FOUNDING)"
+      },
+      {
+        "from": [
+          "COMPL.",
+          "C0MPL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "COMPL."
+      },
+      {
+        "from": [
+          "OTHER (DAILY HOTEL MENU)",
+          "OTHEER (DAILY HOTEL MENU)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (DAILY HOTEL MENU)"
+      },
+      {
+        "from": [
+          "ANNIVERSARY, COMP",
+          "ANNIVERSARY/COMPL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY, COMP"
+      },
+      {
+        "from": [
+          "OTHER (REGULAR MEETING)",
+          "OTHER (REGULAR MEETING OF A CARD PLAYING GROUP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (REGULAR MEETING)"
+      },
+      {
+        "from": [
+          "TESTIMONIAL DINNER",
+          "TESTIMONIAL DINNER TO HON. BUCKLEY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TESTIMONIAL DINNER"
+      },
+      {
+        "from": [
+          "OTHER (COMMEMORATION)",
+          "OTHER (COMMEMORATION OF A BULL FIGHT BY FAMOUS TORREODOR)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (COMMEMORATION)"
+      }
+    ],
+    "description": "Mass edit cells in column occasion"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column location using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "place",
+    "expression": "grel:value.replace('[','')",
+    "onError": "set-to-blank",
+    "newColumnName": "place_cleaned",
+    "columnInsertIndex": 5,
+    "description": "Create column place_cleaned at index 5 based on column place using expression grel:value.replace('[','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "place_cleaned",
+    "expression": "grel:value.replace(']','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column place_cleaned using expression grel:value.replace(']','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "place_cleaned",
+    "expression": "grel:value.replace(';','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column place_cleaned using expression grel:value.replace(';','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "place_cleaned",
+    "expression": "grel:value.replace('?','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column place_cleaned using expression grel:value.replace('?','')"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "place_cleaned",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q486972",
+        "name": "human settlement"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column place_cleaned to type Q486972"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "place_cleaned: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "place_cleaned",
+          "from": 13,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "place_cleaned",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P17",
+          "name": null
+        }
+      ]
+    },
+    "columnInsertIndex": 6,
+    "description": "Extend data at index 6 based on column place_cleaned"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "place_cleaned: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "place_cleaned",
+          "from": 13,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "place_cleaned",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P17",
+          "name": null
+        }
+      ]
+    },
+    "columnInsertIndex": 6,
+    "description": "Extend data at index 6 based on column place_cleaned"
+  },
+  {
+    "op": "core/recon-match-best-candidates",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "place_cleaned: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "place_cleaned",
+          "from": 13,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "place_cleaned",
+    "description": "Match each cell to its best recon candidate in column place_cleaned"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "country",
+    "description": "Remove column country"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "place_cleaned: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "place_cleaned",
+          "from": 13,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "place_cleaned",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P17",
+          "name": null
+        }
+      ]
+    },
+    "columnInsertIndex": 6,
+    "description": "Extend data at index 6 based on column place_cleaned"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "country2",
+    "description": "Remove column country2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "place_cleaned: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "place_cleaned",
+          "from": 13,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "place_cleaned",
+    "expression": "grel:if(isBlank(cells[\"country\"].value), value, null)",
+    "onError": "set-to-blank",
+    "newColumnName": "place_need_review",
+    "columnInsertIndex": 6,
+    "description": "Create column place_need_review at index 6 based on column place_cleaned using expression grel:if(isBlank(cells[\"country\"].value), value, null)"
+  },
+  {
+    "op": "core/column-addition-by-fetching-urls",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "place_cleaned: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "place_cleaned",
+          "from": 13,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "place_need_review",
+    "urlExpression": "grel:if(isBlank(value), null,   \"https://api.opencagedata.com/geocode/v1/json?q=\" + escape(value, \"url\") + \"&key=8e1d2923fc904e35bf2bb51be25fa17c\")",
+    "onError": "set-to-blank",
+    "newColumnName": "place_after_geocode",
+    "columnInsertIndex": 7,
+    "delay": 500,
+    "cacheResponses": true,
+    "httpHeadersJson": [
+      {
+        "name": "authorization",
+        "value": ""
+      },
+      {
+        "name": "if-modified-since",
+        "value": ""
+      },
+      {
+        "name": "accept-language",
+        "value": ""
+      },
+      {
+        "name": "accept-encoding",
+        "value": ""
+      },
+      {
+        "name": "user-agent",
+        "value": "OpenRefine 3.9.3 [TRUNK]"
+      },
+      {
+        "name": "accept",
+        "value": "*/*"
+      },
+      {
+        "name": "accept-charset",
+        "value": ""
+      }
+    ],
+    "description": "Create column place_after_geocode at index 7 by fetching URLs based on column place_need_review using expression grel:if(isBlank(value), null,   \"https://api.opencagedata.com/geocode/v1/json?q=\" + escape(value, \"url\") + \"&key=8e1d2923fc904e35bf2bb51be25fa17c\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "place_cleaned: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "place_cleaned",
+          "from": 13,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "place_after_geocode",
+    "expression": "grel:parseJson(value)[\"results\"][0][\"components\"][\"country\"]",
+    "onError": "set-to-blank",
+    "newColumnName": "country_after_geocode",
+    "columnInsertIndex": 8,
+    "description": "Create column country_after_geocode at index 8 based on column place_after_geocode using expression grel:parseJson(value)[\"results\"][0][\"components\"][\"country\"]"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "place_after_geocode",
+    "description": "Remove column place_after_geocode"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "place_cleaned: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "place_cleaned",
+          "from": 13,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "country_after_geocode",
+    "expression": "grel:if(isBlank(value), cells[\"country\"].value, value)",
+    "onError": "set-to-blank",
+    "newColumnName": "country_merged",
+    "columnInsertIndex": 8,
+    "description": "Create column country_merged at index 8 based on column country_after_geocode using expression grel:if(isBlank(value), cells[\"country\"].value, value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "currency",
+    "expression": "grel:if(isBlank(value), cells[\"country_merged\"].value,\n  if(isBlank(cells[\"country_merged\"].value), value,\n    value + \" | \" + cells[\"country_merged\"].value))",
+    "onError": "set-to-blank",
+    "newColumnName": "currency_country",
+    "columnInsertIndex": 18,
+    "description": "Create column currency_country at index 18 based on column currency using expression grel:if(isBlank(value), cells[\"country_merged\"].value,\n  if(isBlank(cells[\"country_merged\"].value), value,\n    value + \" | \" + cells[\"country_merged\"].value))"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "currency_country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mexican pesos | United States",
+          "Mexican pesos | United States of America"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mexican pesos | United States"
+      },
+      {
+        "from": [
+          "UK Pounds | United States",
+          "UK Pounds | United States of America"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UK Pounds | United States"
+      },
+      {
+        "from": [
+          "Dollars | United States",
+          "Dollars | United States of America"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dollars | United States"
+      },
+      {
+        "from": [
+          "Cents | United States",
+          "Cents | United States of America"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cents | United States"
+      },
+      {
+        "from": [
+          "United States",
+          "United States of America"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United States"
+      }
+    ],
+    "description": "Mass edit cells in column currency_country"
+  }
+]

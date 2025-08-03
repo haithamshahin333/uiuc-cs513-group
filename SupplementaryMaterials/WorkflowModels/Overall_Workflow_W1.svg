@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1030pt" height="906pt" viewBox="0.00 0.00 1030.00 905.59">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 901.59)">
+<title>Overall_Workflow_W1</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-901.59 1026,-901.59 1026,4 -4,4"/>
+<text text-anchor="middle" x="511" y="-879.19" font-family="Arial Bold" font-size="16.00">Overall Data Cleaning Workflow (W1)</text>
+<text text-anchor="middle" x="511" y="-859.99" font-family="Arial Bold" font-size="16.00">NYPL Menu Dataset Project</text>
+<g id="clust1" class="cluster">
+<title>cluster_input</title>
+<polygon fill="none" stroke="blue" stroke-dasharray="5,2" points="27,-719.8 27,-843.19 601,-843.19 601,-719.8 27,-719.8"/>
+<text text-anchor="middle" x="314" y="-826.59" font-family="Times,serif" font-size="14.00">Input</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_process</title>
+<polygon fill="none" stroke="black" points="89,-137.4 89,-685 292,-685 292,-137.4 89,-137.4"/>
+<text text-anchor="middle" x="190.5" y="-668.4" font-family="Times,serif" font-size="14.00">Data Cleaning Workflow Process</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_tools</title>
+<polygon fill="none" stroke="brown" stroke-dasharray="5,2" points="300,-125 300,-249 1014,-249 1014,-125 300,-125"/>
+<text text-anchor="middle" x="657" y="-232.4" font-family="Times,serif" font-size="14.00">Tools &amp; Methods</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_output</title>
+<polygon fill="none" stroke="green" stroke-dasharray="5,2" points="8,-8 8,-106 350,-106 350,-8 8,-8"/>
+<text text-anchor="middle" x="179" y="-89.4" font-family="Times,serif" font-size="14.00">Outputs</text>
+</g>
+<!-- raw_data -->
+<g id="node1" class="node">
+<title>raw_data</title>
+<path fill="lightblue" stroke="black" d="M400.87,-792.5C400.87,-795.36 318.9,-797.7 218,-797.7 117.1,-797.7 35.13,-795.36 35.13,-792.5 35.13,-792.5 35.13,-745.7 35.13,-745.7 35.13,-742.83 117.1,-740.5 218,-740.5 318.9,-740.5 400.87,-742.83 400.87,-745.7 400.87,-745.7 400.87,-792.5 400.87,-792.5"/>
+<path fill="none" stroke="black" d="M400.87,-792.5C400.87,-789.63 318.9,-787.3 218,-787.3 117.1,-787.3 35.13,-789.63 35.13,-792.5"/>
+<text text-anchor="middle" x="218" y="-773.3" font-family="Arial" font-size="14.00">Raw NYPL Dataset</text>
+<text text-anchor="middle" x="218" y="-756.5" font-family="Arial" font-size="14.00">(Menu.csv + MenuItem.csv + Dish.csv + MenuPage.csv)</text>
+</g>
+<!-- profiling -->
+<g id="node2" class="node">
+<title>profiling</title>
+<polygon fill="lightyellow" stroke="black" points="284.02,-652.2 183.98,-652.2 183.98,-593.8 284.02,-593.8 284.02,-652.2"/>
+<text text-anchor="middle" x="234" y="-635.6" font-family="Arial" font-size="14.00">Phase 1:</text>
+<text text-anchor="middle" x="234" y="-618.8" font-family="Arial" font-size="14.00">Data Profiling</text>
+<text text-anchor="middle" x="234" y="-602" font-family="Arial" font-size="14.00">&amp; Analysis</text>
+</g>
+<!-- raw_data&#45;&gt;profiling -->
+<g id="edge1" class="edge">
+<title>raw_data-&gt;profiling</title>
+<path fill="none" stroke="black" d="M221.08,-740.31C223.49,-718.67 226.86,-688.31 229.55,-664.05"/>
+<polygon fill="black" stroke="black" points="233.02,-664.51 230.65,-654.19 226.07,-663.74 233.02,-664.51"/>
+</g>
+<!-- quality_id -->
+<g id="node3" class="node">
+<title>quality_id</title>
+<polygon fill="lightyellow" stroke="black" points="283.46,-556.8 186.54,-556.8 186.54,-498.4 283.46,-498.4 283.46,-556.8"/>
+<text text-anchor="middle" x="235" y="-540.2" font-family="Arial" font-size="14.00">Phase 2:</text>
+<text text-anchor="middle" x="235" y="-523.4" font-family="Arial" font-size="14.00">Quality Issue</text>
+<text text-anchor="middle" x="235" y="-506.6" font-family="Arial" font-size="14.00">Identification</text>
+</g>
+<!-- profiling&#45;&gt;quality_id -->
+<g id="edge2" class="edge">
+<title>profiling-&gt;quality_id</title>
+<path fill="none" stroke="black" d="M234.31,-593.47C234.39,-585.67 234.48,-577.06 234.57,-568.74"/>
+<polygon fill="black" stroke="black" points="238.07,-568.83 234.68,-558.79 231.07,-568.75 238.07,-568.83"/>
+</g>
+<!-- sql_tools -->
+<g id="node10" class="node">
+<title>sql_tools</title>
+<polygon fill="wheat" stroke="black" points="909,-216.2 812.08,-174.6 909,-133 1005.92,-174.6 909,-216.2"/>
+<text text-anchor="middle" x="909" y="-178.8" font-family="Arial" font-size="14.00">SQL Queries</text>
+<text text-anchor="middle" x="909" y="-162" font-family="Arial" font-size="14.00">&amp; Analysis</text>
+</g>
+<!-- profiling&#45;&gt;sql_tools -->
+<g id="edge9" class="edge">
+<title>profiling-&gt;sql_tools</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M284.28,-613.5C356.5,-599.84 481,-570.26 481,-528.6 481,-528.6 481,-528.6 481,-320 481,-246.73 735.84,-278.3 803,-249 825.99,-238.97 849.17,-223.66 867.96,-209.61"/>
+<polygon fill="black" stroke="black" points="870.07,-212.4 875.88,-203.54 865.82,-206.84 870.07,-212.4"/>
+<text text-anchor="middle" x="495.79" y="-428" font-family="Arial" font-size="14.00">uses</text>
+</g>
+<!-- cleaning -->
+<g id="node4" class="node">
+<title>cleaning</title>
+<polygon fill="lightgreen" stroke="black" points="284.36,-461.4 179.64,-461.4 179.64,-403 284.36,-403 284.36,-461.4"/>
+<text text-anchor="middle" x="232" y="-444.8" font-family="Arial" font-size="14.00">Phase 3:</text>
+<text text-anchor="middle" x="232" y="-428" font-family="Arial" font-size="14.00">Data Cleaning</text>
+<text text-anchor="middle" x="232" y="-411.2" font-family="Arial" font-size="14.00">Operations</text>
+</g>
+<!-- quality_id&#45;&gt;cleaning -->
+<g id="edge3" class="edge">
+<title>quality_id-&gt;cleaning</title>
+<path fill="none" stroke="black" d="M234.08,-498.07C233.83,-490.27 233.56,-481.66 233.29,-473.34"/>
+<polygon fill="black" stroke="black" points="236.79,-473.27 232.97,-463.39 229.79,-473.5 236.79,-473.27"/>
+</g>
+<!-- quality_id&#45;&gt;sql_tools -->
+<g id="edge10" class="edge">
+<title>quality_id-&gt;sql_tools</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M267.91,-498.11C305.2,-464.87 366.55,-407.16 411,-350.2 440.73,-312.1 425.23,-281.3 467,-257 499.28,-238.23 767.49,-260.56 803,-249 827.51,-241.02 851.42,-225.37 870.31,-210.56"/>
+<polygon fill="black" stroke="black" points="872.41,-213.36 877.98,-204.35 868.01,-207.92 872.41,-213.36"/>
+</g>
+<!-- validation -->
+<g id="node5" class="node">
+<title>validation</title>
+<polygon fill="lightcoral" stroke="black" points="230.52,-350.2 137.48,-350.2 137.48,-291.8 230.52,-291.8 230.52,-350.2"/>
+<text text-anchor="middle" x="184" y="-333.6" font-family="Arial" font-size="14.00">Phase 4:</text>
+<text text-anchor="middle" x="184" y="-316.8" font-family="Arial" font-size="14.00">Data Quality</text>
+<text text-anchor="middle" x="184" y="-300" font-family="Arial" font-size="14.00">Validation</text>
+</g>
+<!-- cleaning&#45;&gt;validation -->
+<g id="edge4" class="edge">
+<title>cleaning-&gt;validation</title>
+<path fill="none" stroke="black" d="M179.31,-402.92C173.58,-397.72 168.55,-391.76 165,-385 161.13,-377.63 161,-369.35 162.8,-361.28"/>
+<polygon fill="black" stroke="black" points="166.07,-362.53 165.81,-351.94 159.41,-360.38 166.07,-362.53"/>
+</g>
+<!-- openrefine_tool -->
+<g id="node11" class="node">
+<title>openrefine_tool</title>
+<polygon fill="wheat" stroke="black" points="425,-216.2 307.86,-174.6 425,-133 542.14,-174.6 425,-216.2"/>
+<text text-anchor="middle" x="425" y="-178.8" font-family="Arial" font-size="14.00">OpenRefine</text>
+<text text-anchor="middle" x="425" y="-162" font-family="Arial" font-size="14.00">Transformations</text>
+</g>
+<!-- cleaning&#45;&gt;openrefine_tool -->
+<g id="edge11" class="edge">
+<title>cleaning-&gt;openrefine_tool</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M270.6,-402.65C276.03,-397.28 281.09,-391.34 285,-385 315.86,-335.01 285.49,-305.93 318,-257 331.26,-237.04 351.09,-220 370.09,-206.75"/>
+<polygon fill="black" stroke="black" points="372,-209.68 378.36,-201.2 368.1,-203.87 372,-209.68"/>
+<text text-anchor="middle" x="317.84" y="-316.8" font-family="Arial" font-size="14.00">uses</text>
+</g>
+<!-- api_tools -->
+<g id="node12" class="node">
+<title>api_tools</title>
+<polygon fill="wheat" stroke="black" points="677,-216.2 559.83,-174.6 677,-133 794.17,-174.6 677,-216.2"/>
+<text text-anchor="middle" x="677" y="-178.8" font-family="Arial" font-size="14.00">Wikidata &amp;</text>
+<text text-anchor="middle" x="677" y="-162" font-family="Arial" font-size="14.00">OpenCage APIs</text>
+</g>
+<!-- cleaning&#45;&gt;api_tools -->
+<g id="edge12" class="edge">
+<title>cleaning-&gt;api_tools</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M279.25,-402.55C287.39,-397.02 295.61,-391.06 303,-385 319.72,-371.29 322.2,-365.97 337,-350.2 375.16,-309.54 370.77,-281.22 421,-257 447.07,-244.43 523.3,-257.4 551,-249 579.19,-240.45 607.79,-224.5 630.6,-209.66"/>
+<polygon fill="black" stroke="black" points="632.37,-212.68 638.75,-204.22 628.48,-206.86 632.37,-212.68"/>
+<text text-anchor="middle" x="392.65" y="-316.8" font-family="Arial" font-size="14.00">uses</text>
+</g>
+<!-- validation&#45;&gt;cleaning -->
+<g id="edge14" class="edge">
+<title>validation-&gt;cleaning</title>
+<path fill="none" stroke="red" stroke-dasharray="1,5" d="M179.68,-350.56C179.15,-361.7 180.04,-374.34 184.59,-385 185.86,-387.97 187.43,-390.85 189.2,-393.62"/>
+<polygon fill="red" stroke="red" points="186.23,-395.48 195.04,-401.37 191.82,-391.27 186.23,-395.48"/>
+<text text-anchor="middle" x="234.8" y="-372.4" font-family="Arial" font-size="14.00">iterate if needed</text>
+</g>
+<!-- export -->
+<g id="node6" class="node">
+<title>export</title>
+<polygon fill="lightgray" stroke="black" points="234.81,-203.8 133.19,-203.8 133.19,-145.4 234.81,-145.4 234.81,-203.8"/>
+<text text-anchor="middle" x="184" y="-187.2" font-family="Arial" font-size="14.00">Phase 5:</text>
+<text text-anchor="middle" x="184" y="-170.4" font-family="Arial" font-size="14.00">Cleaned Data</text>
+<text text-anchor="middle" x="184" y="-153.6" font-family="Arial" font-size="14.00">Export</text>
+</g>
+<!-- validation&#45;&gt;export -->
+<g id="edge5" class="edge">
+<title>validation-&gt;export</title>
+<path fill="none" stroke="black" d="M184,-291.47C184,-269.72 184,-239.49 184,-215.36"/>
+<polygon fill="black" stroke="black" points="187.5,-215.58 184,-205.58 180.5,-215.58 187.5,-215.58"/>
+</g>
+<!-- validation&#45;&gt;sql_tools -->
+<g id="edge13" class="edge">
+<title>validation-&gt;sql_tools</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M230.91,-301.69C272.39,-286.48 334.93,-265.95 391.43,-257 436.6,-249.84 759.48,-263.06 803,-249 827.53,-241.07 851.44,-225.43 870.32,-210.61"/>
+<polygon fill="black" stroke="black" points="872.43,-213.41 877.99,-204.39 868.02,-207.97 872.43,-213.41"/>
+<text text-anchor="middle" x="406.21" y="-261.2" font-family="Arial" font-size="14.00">uses</text>
+</g>
+<!-- clean_data -->
+<g id="node7" class="node">
+<title>clean_data</title>
+<path fill="lightpink" stroke="black" d="M136.14,-68C136.14,-70.87 109.19,-73.2 76,-73.2 42.81,-73.2 15.86,-70.87 15.86,-68 15.86,-68 15.86,-21.2 15.86,-21.2 15.86,-18.33 42.81,-16 76,-16 109.19,-16 136.14,-18.33 136.14,-21.2 136.14,-21.2 136.14,-68 136.14,-68"/>
+<path fill="none" stroke="black" d="M136.14,-68C136.14,-65.13 109.19,-62.8 76,-62.8 42.81,-62.8 15.86,-65.13 15.86,-68"/>
+<text text-anchor="middle" x="76" y="-48.8" font-family="Arial" font-size="14.00">Cleaned Dataset</text>
+<text text-anchor="middle" x="76" y="-32" font-family="Arial" font-size="14.00">(D')</text>
+</g>
+<!-- export&#45;&gt;clean_data -->
+<g id="edge6" class="edge">
+<title>export-&gt;clean_data</title>
+<path fill="none" stroke="black" d="M160.03,-145.19C144.33,-126.59 123.67,-102.1 106.76,-82.06"/>
+<polygon fill="black" stroke="black" points="109.63,-80.03 100.51,-74.64 104.28,-84.54 109.63,-80.03"/>
+</g>
+<!-- quality_report -->
+<g id="node8" class="node">
+<title>quality_report</title>
+<polygon fill="lightpink" stroke="black" points="207.79,-65.4 154.21,-65.4 154.21,-23.8 213.79,-23.8 213.79,-59.4 207.79,-65.4"/>
+<polyline fill="none" stroke="black" points="207.79,-65.4 207.79,-59.4"/>
+<polyline fill="none" stroke="black" points="213.79,-59.4 207.79,-59.4"/>
+<text text-anchor="middle" x="184" y="-48.8" font-family="Arial" font-size="14.00">Quality</text>
+<text text-anchor="middle" x="184" y="-32" font-family="Arial" font-size="14.00">Report</text>
+</g>
+<!-- export&#45;&gt;quality_report -->
+<g id="edge7" class="edge">
+<title>export-&gt;quality_report</title>
+<path fill="none" stroke="black" d="M184,-145.19C184,-125 184,-97.87 184,-77.03"/>
+<polygon fill="black" stroke="black" points="187.5,-77.1 184,-67.1 180.5,-77.1 187.5,-77.1"/>
+</g>
+<!-- workflow_doc -->
+<g id="node9" class="node">
+<title>workflow_doc</title>
+<polygon fill="lightpink" stroke="black" points="336.08,-65.4 231.92,-65.4 231.92,-23.8 342.08,-23.8 342.08,-59.4 336.08,-65.4"/>
+<polyline fill="none" stroke="black" points="336.08,-65.4 336.08,-59.4"/>
+<polyline fill="none" stroke="black" points="342.08,-59.4 336.08,-59.4"/>
+<text text-anchor="middle" x="287" y="-48.8" font-family="Arial" font-size="14.00">Workflow</text>
+<text text-anchor="middle" x="287" y="-32" font-family="Arial" font-size="14.00">Documentation</text>
+</g>
+<!-- export&#45;&gt;workflow_doc -->
+<g id="edge8" class="edge">
+<title>export-&gt;workflow_doc</title>
+<path fill="none" stroke="black" d="M206.86,-145.19C223.79,-124.15 246.78,-95.58 263.8,-74.43"/>
+<polygon fill="black" stroke="black" points="266.43,-76.75 269.97,-66.76 260.98,-72.36 266.43,-76.75"/>
+</g>
+<!-- use_case -->
+<g id="node13" class="node">
+<title>use_case</title>
+<ellipse fill="orange" stroke="black" cx="506" cy="-769.1" rx="86.69" ry="41.3"/>
+<text text-anchor="middle" x="506" y="-781.7" font-family="Arial" font-size="14.00">Use Case U1:</text>
+<text text-anchor="middle" x="506" y="-764.9" font-family="Arial" font-size="14.00">Price Analysis</text>
+<text text-anchor="middle" x="506" y="-748.1" font-family="Arial" font-size="14.00">Across Countries</text>
+</g>
+<!-- use_case&#45;&gt;profiling -->
+<g id="edge15" class="edge">
+<title>use_case-&gt;profiling</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M448.65,-737.71C403.44,-713.76 340.56,-680.45 294.55,-656.07"/>
+<polygon fill="black" stroke="black" points="296.22,-653 285.75,-651.41 292.95,-659.19 296.22,-653"/>
+<text text-anchor="middle" x="413.03" y="-697.2" font-family="Arial" font-size="14.00">drives</text>
+</g>
+<!-- use_case&#45;&gt;quality_id -->
+<g id="edge16" class="edge">
+<title>use_case-&gt;quality_id</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M472.78,-730.47C461.45,-718.19 448.48,-704.7 436,-693 385.7,-645.85 323.76,-596.36 282.05,-564.16"/>
+<polygon fill="black" stroke="black" points="284.2,-561.4 274.14,-558.08 279.93,-566.95 284.2,-561.4"/>
+</g>
+</g>
+</svg>
