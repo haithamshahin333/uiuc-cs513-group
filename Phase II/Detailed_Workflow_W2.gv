@@ -4,6 +4,8 @@ digraph NYPL_Data_Cleaning_Workflow {
     
     raw_menu_csv [label="Raw Menu CSV", fillcolor=lightblue];
     raw_menuitem_csv [label="Raw MenuItem CSV", fillcolor=lightblue];
+    raw_dish_csv [label="Raw Dish CSV", fillcolor=lightblue];
+    raw_menupage_csv [label="Raw MenuPage CSV", fillcolor=lightblue];
     
     profiling [label="Data Profiling\n& Analysis", fillcolor=lightyellow];
     sql_analysis [label="SQL Quality\nAnalysis", fillcolor=lightyellow];
@@ -25,16 +27,31 @@ digraph NYPL_Data_Cleaning_Workflow {
     field_valid [label="Required Fields\nValidation", fillcolor=lightcoral];
     position_valid [label="Position Data\nValidation", fillcolor=lightcoral];
     
+    dish_cleaning [label="Dish Dataset\nCleaning", fillcolor=lightsalmon];
+    dish_ic_removal [label="Remove IC\nViolations", fillcolor=lightsalmon];
+    dish_date_clean [label="Clean Invalid\nDates", fillcolor=lightsalmon];
+    dish_price_clean [label="Remove Invalid\nPricing", fillcolor=lightsalmon];
+    dish_name_std [label="Standardize\nDish Names", fillcolor=lightsalmon];
+    dish_column_drop [label="Drop Unused\nColumns", fillcolor=lightsalmon];
+    
+    menupage_cleaning [label="MenuPage Dataset\nCleaning", fillcolor=lightsteelblue];
+    menupage_ic_removal [label="Remove MenuPage\nIC Violations", fillcolor=lightsteelblue];
+    menupage_page_clean [label="Clean Invalid\nPage Numbers", fillcolor=lightsteelblue];
+    
     quality_valid [label="Quality\nValidation", fillcolor=lightgray];
     before_after [label="Before/After\nAnalysis", fillcolor=lightgray];
     
     clean_menu_csv [label="Clean Menu CSV", fillcolor=lightpink];
     clean_menuitem_csv [label="Clean MenuItem CSV", fillcolor=lightpink];
+    clean_dish_csv [label="Clean Dish CSV", fillcolor=lightpink];
+    clean_menupage_csv [label="Clean MenuPage CSV", fillcolor=lightpink];
     quality_report [label="Quality Report", fillcolor=lightpink];
     workflow_doc [label="Workflow\nDocumentation", fillcolor=lightpink];
     
     raw_menu_csv -> profiling;
     raw_menuitem_csv -> profiling;
+    raw_dish_csv -> profiling;
+    raw_menupage_csv -> profiling;
     profiling -> sql_analysis;
     
     raw_menu_csv -> menu_cleaning;
@@ -56,11 +73,28 @@ digraph NYPL_Data_Cleaning_Workflow {
     field_valid -> position_valid;
     position_valid -> clean_menuitem_csv;
     
+    raw_dish_csv -> dish_cleaning;
+    dish_cleaning -> dish_ic_removal;
+    dish_ic_removal -> dish_date_clean;
+    dish_date_clean -> dish_price_clean;
+    dish_price_clean -> dish_name_std;
+    dish_name_std -> dish_column_drop;
+    dish_column_drop -> clean_dish_csv;
+    
+    raw_menupage_csv -> menupage_cleaning;
+    menupage_cleaning -> menupage_ic_removal;
+    menupage_ic_removal -> menupage_page_clean;
+    menupage_page_clean -> clean_menupage_csv;
+    
     clean_menu_csv -> quality_valid;
     clean_menuitem_csv -> quality_valid;
+    clean_dish_csv -> quality_valid;
+    clean_menupage_csv -> quality_valid;
     quality_valid -> before_after;
     raw_menu_csv -> before_after;
     raw_menuitem_csv -> before_after;
+    raw_dish_csv -> before_after;
+    raw_menupage_csv -> before_after;
     
     before_after -> quality_report;
     before_after -> workflow_doc;
@@ -70,6 +104,8 @@ digraph NYPL_Data_Cleaning_Workflow {
         style=dashed;
         raw_menu_csv;
         raw_menuitem_csv;
+        raw_dish_csv;
+        raw_menupage_csv;
     }
     
     subgraph cluster_profiling {
@@ -104,6 +140,25 @@ digraph NYPL_Data_Cleaning_Workflow {
         position_valid;
     }
     
+    subgraph cluster_dish_clean {
+        label="Dish Cleaning Pipeline";
+        style=dashed;
+        dish_cleaning;
+        dish_ic_removal;
+        dish_date_clean;
+        dish_price_clean;
+        dish_name_std;
+        dish_column_drop;
+    }
+    
+    subgraph cluster_menupage_clean {
+        label="MenuPage Cleaning Pipeline";
+        style=dashed;
+        menupage_cleaning;
+        menupage_ic_removal;
+        menupage_page_clean;
+    }
+    
     subgraph cluster_validation {
         label="Quality Validation";
         style=dashed;
@@ -116,6 +171,8 @@ digraph NYPL_Data_Cleaning_Workflow {
         style=dashed;
         clean_menu_csv;
         clean_menuitem_csv;
+        clean_dish_csv;
+        clean_menupage_csv;
         quality_report;
         workflow_doc;
     }
